@@ -670,7 +670,7 @@ Foster collaboration between data scientists, domain experts, business stakehold
 By effectively monitoring and contextualizing results of ML/AI models, organizations can gain deeper insights into model performance, identify areas for improvement, and ensure that machine learning solutions align with organization objectives and user needs over time.
 
 # Maintainance
-## Avoid bias evolving in the learning model over time:
+## Avoid Bias Evolving in the Learning Model Over Time:
  Bias in machine learning models refers to systematic errors introduced by algorithms or training data that lead to unfair or disproportionate predictions for specific groups or individuals [1]. Such biases can arise due to historical imbalances in the training data, algorithm design, or data collection process [1]. You avoid bias evolving in the ML model over time by assesing several metrics and methodologies used to assess bias namely [1];
 - Disparate Impact Analysis: This technique examines the disparate impact of an AI model's decisions on different demographic groups. It measures the difference in model outcome for various groups and highlights potential biases.
 - Fairness Metrics: Different fairness metrics have been developed to measure bias in machine learning models. Key examples include Equal Opportunity Difference, Disparate Misclassification Rate, and Treatment Equality. These metrics help assess how fairly the model treats different groups. 
