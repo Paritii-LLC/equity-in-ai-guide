@@ -1,63 +1,6 @@
 # Post Development
 # Testing
-
-  ## Ensure model is human interpretable:
-  The simplest way to ensure models are interpretable is to use models which by their design are interpretable[1]. The class of models which are apriori interpretable are Linear regression, logistic regression and decision trees. Neural network models commonly used in deep learning are not by design easily interpretable but techniques exists to ensure interpretability. Interpretability facilitates[2]:
-1. Understanding 
-2. Debugging and auditing ML model predictions 
-3. Bias detection to ensure fair decision making 
-4. Robustness checks to ensure that small changes in the input do not lead to large changes in the output 
-5. Methods that provide recourse for those who have been adversely affected by model predictions 
-
-Depending on the model complexity, methods for model interpretability can be classified into intrinsic analysis and post hoc analysis.Intrinsic analysis can be applied to interpret models that have low complexity (simple relationships between the input variables and the predictions) while post hoc analysis can be applied to interpret simpler models as well as more complex models, such as neural networks, which have the ability to capture non-linear interactions [2]. These methods are often model-agnostic and provide mechanisms to interpret a trained model based on the inputs and output predictions. Post hoc analysis can be performed at a local level, or at a global level [2]. An AWS white paper provides a detailed explanation of the various techniques for model interpretability and can be accessed here (https://docs.aws.amazon.com/whitepapers/latest/ml-best-practices-healthcare-life-sciences/model-interpretability.html)
- # References:
-1. https://christophm.github.io/interpretable-ml-book/simple.html
-2. https://docs.aws.amazon.com/whitepapers/latest/ml-best-practices-healthcare-life-sciences/model-interpretability.html
-
- # Avoid bias evolving in the learning model over time:
- Bias in machine learning models refers to systematic errors introduced by algorithms or training data that lead to unfair or disproportionate predictions for specific groups or individuals [1]. Such biases can arise due to historical imbalances in the training data, algorithm design, or data collection process [1]. You avoid bias evolving in the ML model over time by assesing several metrics and methodologies used to assess bias namely [1];
-- Disparate Impact Analysis: This technique examines the disparate impact of an AI model's decisions on different demographic groups. It measures the difference in model outcome for various groups and highlights potential biases.
-- Fairness Metrics: Different fairness metrics have been developed to measure bias in machine learning models. Key examples include Equal Opportunity Difference, Disparate Misclassification Rate, and Treatment Equality. These metrics help assess how fairly the model treats different groups. 
-- Post-hoc Analysis: This involves examining an AI system’s decisions after deployment to identify instances of bias and understand its impact on users and society.
-# References:
-1. https://encord.com/blog/reducing-bias-machine-learning/
-
-# Versioning and Proper Documentation on Model Design and Implications:
-Versioning management tools like Github and Bitbucket exist to manage software development versioning and documentation. Machine learning models which are basically a complex ecosystem of data, algorithms and code also require versioning and documentation. Version Control is the process of tracking and managing software changes over time. Whether you’re building an app or an ML model, you need to track every modification done by members of the software team to fix bugs and avoid conflicts [1]. The machine learning development process requires a lot of iterative work, where the developers and Data Scientists are searching for the best performing model while changing hyperparameters, code, and data. It is therefore important to keep a history of these changes to track model performance relative to the parameters, which saves you the time you would spend retraining the model for experimentation or deployment purposes [1]. 
-
-Machine learning version control has three parts [1]:
-
-A. Code
-There is modelling code and implementation code. Modelling code is used to implement the model, and implementation code is used for inference. They can both be written in different programming languages, but it might make it more difficult to maintain all of your code and dependencies. 
-
-B. Data
-There is metadata, which is information about your data and model. Then there is the actual data, the datasets that you use to train and run your model. Metadata can change without any change in the data, and versioning should link the data to the appropriate meta information
-
-C. Model
-The model is the glue that connects all of the above with model parameters and hyperparameters to produce a finished product.
-
-Versioning models and data creates a framework for better monitoring of the models. In addition, versioning serves as an accelerator on how frequently the models can be updated and placed in production [2]. With proper versioning and documentation, we can combine model predictions and the corresponding input data with model versions and trained data. With this kind of logical grouping, we can eventually detect data drifts and model miss performances which then allow for better model retraining and troubleshooting [2].
-More information about version and proper documentation can be found in this excellent resource here (https://neptune.ai/blog/version-control-for-ml-models)
-# References:
-1. https://neptune.ai/blog/version-control-for-ml-models
-2. https://www.silo.ai/blog/versioning-transparency-monitoring-in-machine-learning-pipelines
-
-
-# Data Retention and Deletion Strategy for Handling Ethical and Privacy Issues:
-Data retention is the storing of information for a specific period of time. It helps businesses reduce costs, legal risks, and security threats to users and organizations [1]. To successfully implement a data retention policy, incoming and existing data needs to be properly classified and organized based on its risk level and intended use [1]. The data retention policy needs to indicate who and which departments are responsible for the retention and disposal of each data type in the data ecosystem. The policy should also state what needs to happen at the end of the retention period [1]. Many global privacy regulations have demanded that organizations and instituitions make data deletion a common practice, rather than just a best practice [2]. There are two types of data deletion processes required by privacy regulations namely request-based deletion and data retention and purge [2]. Request-based deletion is initiated  when someone initiates a data deletion request. The individual's status and relationship with the organization determine whether the request must be honored, what type of data can be deleted upon the request, and whether any exceptions to deletion requirements apply. Data deletion exceptions can include retaining data that is required for service delivery, legal and regulatory reasons, or financial reporting [2]. Data retention and purge are more focused on deleting data according to an organization’s schedules and internal process guidelines. This requires organizations to operate a dedicated data retention governance team to provide data retention and purge oversight in order to deal with ethical and privacy issues. A  sustainable data deletion program can help organizations improve their compliance with applicable privacy and data protection requirements as well as enhance data governance and data protection posture at the same time [2].
-
-# References:
-1. https://segment.com/blog/data-retention/
-2. https://www.grantthornton.com/insights/articles/advisory/2020/how-data-deletion-empowers-data-protection
-
-# Continuous Fairness Monitoring of ML Models:
-ML fairness and monitoring are increasingly becoming critical components of machine learning in the wake of demands for equity and diversity in AI products. ML practitioners generally regard monitoring for drift as an early warning system for performance issues and evaluating models with fairness metrics as a solution for assessing bias in a trained model [1]. A trained model that is fair can become unfair after deployment due to the same model drift that causes performance issues [1]. A method to measure and monitor fairness in ML models over the model lifecycle is Quantile Demographic Drift (QDD) [2]. QDD is a novel model bias quantification metric that uses quantile binning to measure differences in the overall prediction distributions over subgroups [2].  QDD is incorporated into a continuous model monitoring system, called FairCanary, that reuses existing explanations computed for each individual prediction to quickly compute explanations for the QDD bias metrics [2]. When unfairness is detected, a bias mitigation strategy replaces the score of the disadvantaged group with the score of the corresponding rank in the advantaged group [2]. As this approach is a post processing step, it avoids pretraining to debias the model and is therefore a computationally inexpensive approach to bias mitigation [2]. More information about continous fairness monitoring can be found in this paper here (https://arxiv.org/abs/2106.07057)
-
-# References:
-1. https://www.fiddler.ai/blog/faircanary-rapid-continuous-explainable-fairness
-2. Avijit Ghosh, Aalok Shanbhag, Christo Wilson. FairCanary: Rapid Continuous Explainable Fairness (https://arxiv.org/abs/2106.07057)
-
-# Evaluate Algorithms and Output for Bias:
+  ## Evaluate Algorithms and Output for Bias:
 Algorithmic bias occurs when AI/ML model design, data, and sampling result in measurably different model performance for different subgroups [1]. The two major courses of algorithmic bias are subgroup invalidity and label choice bias. Subgroup invalidity occurs when AI/ML is predicting an appropriate outcome or measure, but the model does not perform well for particular subgroups [1]. The underlying cause is when AI/ML models are trained on non-diverse populations or with data that underrepresents the subgroup or fails to include specific risk factors affecting them [1]. Label choice bias occurs when the algorithm’s predicted outcome is a proxy variable for the actual outcome it should be predicting [1].
 
 Algorithmic bias has the potential to cause serious harm and even have life-threatening impact on consumers of the output of ML/AI models. Hence, there is a practical need to evaluate algorithms and output for bias. There are a few steps that can be implemented namely[2];
@@ -91,31 +34,150 @@ On the technical side, python libraries like Aequitas (http://aequitas.dssg.io/)
 
 Encourage users to provide feedback on the algorithm's outputs, especially if they believe bias may be present. This feedback loop can be valuable for continuous improvement.
 
-# References:
+## References:
 1. https://www.closedloop.ai/blog/four-steps-to-measure-and-mitigate-algorithmic-bias-in-healthcare/
 2. https://www.aha.org/aha-center-health-innovation-market-scan/2021-10-05-4-steps-mitigate-algorithmic-bias
 3. http://aequitas.dssg.io/
 
+  ## Ensure model is human interpretable:
+  The simplest way to ensure models are interpretable is to use models which by their design are interpretable[1]. The class of models which are apriori interpretable are Linear regression, logistic regression and decision trees. Neural network models commonly used in deep learning are not by design easily interpretable but techniques exists to ensure interpretability. Interpretability facilitates[2]:
+1. Understanding 
+2. Debugging and auditing ML model predictions 
+3. Bias detection to ensure fair decision making 
+4. Robustness checks to ensure that small changes in the input do not lead to large changes in the output 
+5. Methods that provide recourse for those who have been adversely affected by model predictions 
 
-# Potential impact assessment of Output:
+Depending on the model complexity, methods for model interpretability can be classified into intrinsic analysis and post hoc analysis.Intrinsic analysis can be applied to interpret models that have low complexity (simple relationships between the input variables and the predictions) while post hoc analysis can be applied to interpret simpler models as well as more complex models, such as neural networks, which have the ability to capture non-linear interactions [2]. These methods are often model-agnostic and provide mechanisms to interpret a trained model based on the inputs and output predictions. Post hoc analysis can be performed at a local level, or at a global level [2]. An AWS white paper provides a detailed explanation of the various techniques for model interpretability and can be accessed here (https://docs.aws.amazon.com/whitepapers/latest/ml-best-practices-healthcare-life-sciences/model-interpretability.html)
+ ## References:
+1. https://christophm.github.io/interpretable-ml-book/simple.html
+2. https://docs.aws.amazon.com/whitepapers/latest/ml-best-practices-healthcare-life-sciences/model-interpretability.html
+
+## Impact Assessment - Pre-implementation Simulated Test on Synthetic Data:
+Conducting impact assessment through simulated tests on synthetic data before model deployment to end users is a prudent approach to understand potential outcomes, assess risks, and refine the model's performance. The following blueprint can be useful in conducting such an assesment. 
+
+1. Define Objectives and Scenarios:
+
+- Objective Setting:
+Clearly define the objectives of the impact assessment, such as evaluating model performance, identifying potential biases, or assessing business impact.
+
+- Scenario Generation:
+Develop a set of realistic scenarios that represent different use cases, edge cases, and potential challenges the model may encounter in production.
+
+2. Synthetic Data Generation:
+
+- Data Synthesis:
+Generate synthetic datasets that mimic the characteristics and distributions of real-world data. Ensure that synthetic data covers a wide range of scenarios and includes relevant features and patterns observed in actual data.
+
+3. Model Evaluation:
+- Model Testing:
+Apply the model to synthetic data to simulate real-world predictions and outcomes. Evaluate model performance using predefined metrics and benchmarks.
+
+- Bias Detection:
+Assess potential biases in model predictions by analyzing outcomes across different demographic groups or sensitive attributes. Use fairness metrics and techniques to identify and mitigate biases.
+
+4. Risk Assessment:
+
+- Risk Identification:
+Identify potential risks or vulnerabilities associated with model predictions and decision-making processes.
+Consider ethical, legal, and operational risks that may arise from model deployment.
+
+- Impact Analysis:
+Assess the potential impact of model errors or failures on stakeholders, customers, and the organization.
+Quantify risks and prioritize mitigation strategies based on severity and likelihood.
+
+5. Sensitivity Analysis:
+
+- Parameter Variation:
+Conduct sensitivity analysis by varying model parameters, hyperparameters, or input features to understand their impact on model predictions. Identify robustness thresholds and determine how changes in parameters affect model performance and stability.
+
+6. Validation and Iteration:
+
+- Cross-Validation:
+Validate model performance on synthetic data using cross-validation techniques to ensure robustness and generalization.
+
+- Iterative Refinement:
+Iterate on model development based on insights gained from impact assessment.
+Refine model architecture, feature engineering, or training strategies to address identified risks and improve performance.
+
+7. Documentation and Reporting:
+
+- Results Documentation:
+Document findings from the impact assessment, including model evaluation results, risk assessments, and mitigation strategies.
+
+- Recommendations:
+Provide recommendations for model improvement, risk mitigation, and deployment strategies based on assessment outcomes.
+
+- Communication:
+Communicate assessment results and recommendations to relevant stakeholders, including data scientists, business leaders, and compliance officers.
+8. Continuous Learning and Improvement:
+
+- Feedback Incorporation:
+Incorporate feedback from the impact assessment into the model development process.
+Continuously monitor model performance in production and refine strategies based on real-world feedback and data.
+ # Model Deployment and Modeling
+ ## Avoid bias evolving in the learning model over time:
+ Bias in machine learning models refers to systematic errors introduced by algorithms or training data that lead to unfair or disproportionate predictions for specific groups or individuals [1]. Such biases can arise due to historical imbalances in the training data, algorithm design, or data collection process [1]. You avoid bias evolving in the ML model over time by assesing several metrics and methodologies used to assess bias namely [1];
+- Disparate Impact Analysis: This technique examines the disparate impact of an AI model's decisions on different demographic groups. It measures the difference in model outcome for various groups and highlights potential biases.
+- Fairness Metrics: Different fairness metrics have been developed to measure bias in machine learning models. Key examples include Equal Opportunity Difference, Disparate Misclassification Rate, and Treatment Equality. These metrics help assess how fairly the model treats different groups. 
+- Post-hoc Analysis: This involves examining an AI system’s decisions after deployment to identify instances of bias and understand its impact on users and society.
+## References:
+1. https://encord.com/blog/reducing-bias-machine-learning/
+
+## Versioning and Proper Documentation on Model Design and Implications:
+Versioning management tools like Github and Bitbucket exist to manage software development versioning and documentation. Machine learning models which are basically a complex ecosystem of data, algorithms and code also require versioning and documentation. Version Control is the process of tracking and managing software changes over time. Whether you’re building an app or an ML model, you need to track every modification done by members of the software team to fix bugs and avoid conflicts [1]. The machine learning development process requires a lot of iterative work, where the developers and Data Scientists are searching for the best performing model while changing hyperparameters, code, and data. It is therefore important to keep a history of these changes to track model performance relative to the parameters, which saves you the time you would spend retraining the model for experimentation or deployment purposes [1]. 
+
+Machine learning version control has three parts [1]:
+
+A. Code
+There is modelling code and implementation code. Modelling code is used to implement the model, and implementation code is used for inference. They can both be written in different programming languages, but it might make it more difficult to maintain all of your code and dependencies. 
+
+B. Data
+There is metadata, which is information about your data and model. Then there is the actual data, the datasets that you use to train and run your model. Metadata can change without any change in the data, and versioning should link the data to the appropriate meta information
+
+C. Model
+The model is the glue that connects all of the above with model parameters and hyperparameters to produce a finished product.
+
+Versioning models and data creates a framework for better monitoring of the models. In addition, versioning serves as an accelerator on how frequently the models can be updated and placed in production [2]. With proper versioning and documentation, we can combine model predictions and the corresponding input data with model versions and trained data. With this kind of logical grouping, we can eventually detect data drifts and model miss performances which then allow for better model retraining and troubleshooting [2].
+More information about version and proper documentation can be found in this excellent resource here (https://neptune.ai/blog/version-control-for-ml-models)
+## References:
+1. https://neptune.ai/blog/version-control-for-ml-models
+2. https://www.silo.ai/blog/versioning-transparency-monitoring-in-machine-learning-pipelines
+
+
+## Data Retention and Deletion Strategy for Handling Ethical and Privacy Issues:
+Data retention is the storing of information for a specific period of time. It helps businesses reduce costs, legal risks, and security threats to users and organizations [1]. To successfully implement a data retention policy, incoming and existing data needs to be properly classified and organized based on its risk level and intended use [1]. The data retention policy needs to indicate who and which departments are responsible for the retention and disposal of each data type in the data ecosystem. The policy should also state what needs to happen at the end of the retention period [1]. Many global privacy regulations have demanded that organizations and instituitions make data deletion a common practice, rather than just a best practice [2]. There are two types of data deletion processes required by privacy regulations namely request-based deletion and data retention and purge [2]. Request-based deletion is initiated  when someone initiates a data deletion request. The individual's status and relationship with the organization determine whether the request must be honored, what type of data can be deleted upon the request, and whether any exceptions to deletion requirements apply. Data deletion exceptions can include retaining data that is required for service delivery, legal and regulatory reasons, or financial reporting [2]. Data retention and purge are more focused on deleting data according to an organization’s schedules and internal process guidelines. This requires organizations to operate a dedicated data retention governance team to provide data retention and purge oversight in order to deal with ethical and privacy issues. A  sustainable data deletion program can help organizations improve their compliance with applicable privacy and data protection requirements as well as enhance data governance and data protection posture at the same time [2].
+
+## References:
+1. https://segment.com/blog/data-retention/
+2. https://www.grantthornton.com/insights/articles/advisory/2020/how-data-deletion-empowers-data-protection
+
+## Continuous Fairness Monitoring of ML Models:
+ML fairness and monitoring are increasingly becoming critical components of machine learning in the wake of demands for equity and diversity in AI products. ML practitioners generally regard monitoring for drift as an early warning system for performance issues and evaluating models with fairness metrics as a solution for assessing bias in a trained model [1]. A trained model that is fair can become unfair after deployment due to the same model drift that causes performance issues [1]. A method to measure and monitor fairness in ML models over the model lifecycle is Quantile Demographic Drift (QDD) [2]. QDD is a novel model bias quantification metric that uses quantile binning to measure differences in the overall prediction distributions over subgroups [2].  QDD is incorporated into a continuous model monitoring system, called FairCanary, that reuses existing explanations computed for each individual prediction to quickly compute explanations for the QDD bias metrics [2]. When unfairness is detected, a bias mitigation strategy replaces the score of the disadvantaged group with the score of the corresponding rank in the advantaged group [2]. As this approach is a post processing step, it avoids pretraining to debias the model and is therefore a computationally inexpensive approach to bias mitigation [2]. More information about continous fairness monitoring can be found in this paper here (https://arxiv.org/abs/2106.07057)
+
+## References:
+1. https://www.fiddler.ai/blog/faircanary-rapid-continuous-explainable-fairness
+2. Avijit Ghosh, Aalok Shanbhag, Christo Wilson. FairCanary: Rapid Continuous Explainable Fairness (https://arxiv.org/abs/2106.07057)
+
+
+## Potential Impact Assessment of Output:
 It is imoprtant to practically test the output of a machine learning model prior to human interpretation. There are three testing methods that can be used, namely [1];
 
 1. Invariance Test - The invariance test defines input changes that are expected to leave model outputs unaffected. A common method for testing invariance is related to data augmentation. You pair up modified and unmodified input examples and see how much this affects the model output.
 2. Directional Expectation Test - A directional expectation test is a test which is run to check hpw a change in the input distribution changes the expected output. An example is  testing assumptions about the number of bathrooms or property size when predicting house prices. A higher number of bathrooms should mean a higher price prediction. Seeing a different result might reveal wrong assumptions about the relationship between our input and output or the distribution of our dataset.
 3. Minimum Functionality Test - The minimum functionality test helps you decide whether individual model components behave as expected. The reasoning behind these tests is that overall, output-based performance can conceal critical upcoming issues in your model. A few ways to do this are, create samples that are “very easy” for the model to predict, in order to see if they consistently deliver these types of predictions; test data segments and subsets that meet a specific criteria; test for failure modes you have identified during manual error analysis.
-# Reference:
+## Reference:
 1. https://deepchecks.com/how-to-test-machine-learning-models/
 
-# Practical Ways of Mitigating Biases in the Use of the Output (Misuse, Misaligned use, and Misinterpretation of the Output):
+## Practical Ways of Mitigating Biases in the Use of the Output (Misuse, Misaligned use, and Misinterpretation of the Output):
 AI developers who develop ML models in order to mitigate biases in the output can follow the suggestions to include a “model facts label”, i.e., a 1-page of relevant and actionable information to ensure that front-line users know how, when, how not to use the output [1]. The model facts label can include a short summary about the AI system, the working mechanism (including the source and baseline characteristics of data used for AI development), results of validation studies, guidelines for use (including benefits and appropriate decision support), warnings (including potential risks and consequences), and other relevant information related to the AI system [1]. 
 Another practical technical way of mitigating bias is to use the eqaulized odds post-processing. This is a post-processing technique that solves a linear program to find probabilities with which to change output labels to optimize equalized odds [2]. A Python implementation of this technique can be found here (https://aif360.readthedocs.io/en/v0.2.3/modules/postprocessing.html)
 
 
-# References:
+## References:
 1. Cristina González-Gonzalo, Eric F. Thee, Caroline C.W. Klaver, Aaron Y. Lee, Reinier O. Schlingemann, Adnan Tufail, Frank Verbraak, Clara I. Sánchez,Trustworthy AI: Closing the gap between development and integration of AI systems in ophthalmic practice, Progress in Retinal and Eye Research,Volume 90,2022,101034,ISSN13509462, https://doi.org/10.1016/j.preteyeres.2021.101034(https://www.sciencedirect.com/science/article/pii/S1350946221000951).
 2. https://aif360.readthedocs.io/en/v0.2.3/modules/postprocessing.html
 
-# Mitigating Biases Between vs Within Groups:
+## Mitigating Biases Between vs Within Groups:
 In-group bias (also known as in-group favoritism) is the tendency for people to give preferential treatment to others who belong to the same group that they do [1]. Machine learning can also amplify in-group biases. Datasets that train AI software are usually skewed towards one group or against another [1]. 
 Mitigating biases between groups and within groups involves addressing both systemic biases that affect different demographic or user groups and biases that arise within specific subgroups. Here are strategies for mitigating biases at both levels:
 
@@ -150,10 +212,10 @@ Biases Within Groups:
 - Regular Audits: Implement regular audits and evaluations of the algorithm's performance, focusing on both overall fairness and fairness within specific subgroups.
 It's important to approach bias mitigation comprehensively, addressing both systemic biases between groups and biases that may exist within specific subgroups. Additionally, involving stakeholders from diverse backgrounds throughout the development process enhances the likelihood of creating fair and unbiased algorithms.
 
-# References:
+## References:
 1. https://thedecisionlab.com/biases/in-group-bias
 
-# Evaluating the Balance Between Variance vs Bias in the Outcomes and Adjusting the Trade-offs and Thresholds:
+## Evaluating the Balance Between Variance vs Bias in the Outcomes and Adjusting the Trade-offs and Thresholds:
 There is a tradeoff between a model’s ability to minimize bias and variance.A proper understanding of these errors would help us not only to build accurate models but also to avoid the mistake of overfitting and underfitting and hence help to mitigate biases in ML models [1]. The trade-off between bias and variance is an important aspect of developing machine learning models. Striking the right balance is essential for creating models that generalize well to new, unseen data. Bias in a mathematical sense in the context of ML refers to the error introduced by approximating a real-world problem, and high bias can lead to oversimplification. Variance refers to the model's sensitivity to fluctuations in the training data, and high variance can result in overfitting. There is a trade-off between bias and variance, as you reduce bias, variance tends to increase, and vice versa. Some practical steps that can be used to optimize the bias-variance tradeoff are as follows;
 
 A. Evaluate Model Performance: Assess your model's performance on both training and validation datasets. High bias often results in poor performance on both, while high variance can lead to excellent performance on training data but poor generalization to new data.
@@ -180,12 +242,12 @@ K. Regular Monitoring: Regularly monitor and re-evaluate your model's performanc
 
 L. Examine Feature Importance: Understand which features contribute the most to the model's predictions. Eliminating irrelevant features can help reduce variance.
 
-# References:
+## References:
 1. https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229
 2. https://www.analyticsvidhya.com/blog/2023/01/ensemble-learning-methods-bagging-boosting-and-stacking/
 
 
-# Ethical infrastructure: Choose Deployment Platforms that Allow for Proper Model Management - e.g. TensorFlow, TouchServe, AWS SageMaker
+## Ethical infrastructure: Choose Deployment Platforms that Allow for Proper Model Management - e.g. TensorFlow, TouchServe, AWS SageMaker
 Selecting deployment platforms that facilitate proper model management is a crucial aspect of building an ethical infrastructure for machine learning applications. The choice of deployment platforms can significantly impact the transparency, accountability, and fairness of your models.
 Deployment platforms should combine a wide range of essential capabilities and tools, which should include [1]:
 
@@ -213,10 +275,10 @@ Some widely used deployment platforms that promote ethical considerations are li
 7. Docker and Kubernetes: Containerization tools like Docker and orchestration platforms like Kubernetes can provide flexibility and scalability in deploying machine learning models. Containers encapsulate models and dependencies, simplifying deployment across different environments.
 
 When choosing a deployment platform for ethical model management, you should consider factors such as ease of use, integration with ethical AI tools, support for model explainability, and the ability to monitor and audit model performance. Additionally, ensure that the platform aligns with your organization's ethical principles and regulatory requirements. Regularly update models, perform audits, and stay informed about advancements in ethical AI practices to maintain a robust ethical infrastructure.
-# References:
+## References:
 1. https://neptune.ai/blog/mlops-tools-platforms-landscape
 
-# Automated Alerts, Data Drift Monitoring, Periodic Audits, and Performance Metric Monitoring:
+## Automated Alerts, Data Drift Monitoring, Periodic Audits, and Performance Metric Monitoring:
 - Automated Alerts: The purpose of automated alerts is to quickly identify and address issues with model performance or unexpected behavior[1]. Set up automated alerts for significant changes in key metrics (e.g., accuracy, precision, recall) or model outputs. Monitor input data for anomalies or unexpected patterns. Integrate alerts into communication channels for immediate attention.
 
 - Data Drift Monitoring: The purpose of data drift monitoring is to detect changes in the distribution of input data over time, which can impact model performance [2]. Regularly compare new data distributions with the training data distribution. Use statistical methods or machine learning techniques to detect data drift. Trigger alerts or retraining processes when significant drift is identified.
@@ -226,11 +288,11 @@ When choosing a deployment platform for ethical model management, you should con
 - Performance Metric Monitoring: The purpose of performance metric monitoring is to track the model's performance over time and identify degradation or improvements. Continuously monitor key performance metrics based on business objectives. Set up dashboards to visualize and analyze model performance metrics. Establish thresholds for acceptable performance and trigger alerts when thresholds are breached.
 
 Define protocols for model retraining, specifying when and how retraining should occur based on changes in data distribution or performance metrics. Ensure that the monitoring processes align with ethical guidelines and regulatory requirements relevant to your domain.
-# References:
+## References:
 1. https://neptune.ai/blog/how-to-monitor-your-models-in-production-guide
 2. https://learn.microsoft.com/en-us/azure/machine-learning/how-to-monitor-datasets?
 
-# Document Potential Biases and Where They Arise:
+## Document Potential Biases and Where They Arise:
 The documentation of potential biases and understanding where they arise is a crucial step in addressing fairness and ethics in machine learning models. The following structured approach to document potential biases can be applied;
 
 - Document sources of bias in the data collection process (e.g., underrepresentation of certain groups, sampling biases)
@@ -256,7 +318,7 @@ Consider any biases introduced during the deployment of models in specific appli
 
 - Document how the model aligns with ethical guidelines and principles established by the organization and identify ethical concerns and potential societal impacts.
 
-# Explain which Data Features the Model Considers Important and Why Those Were Selected:
+## Explain which Data Features the Model Considers Important and Why Those Were Selected:
  Feature selection is the process of isolating the most consistent, non-redundant, and relevant features to use in model construction [1]. Understanding which data features a model considers important is a key aspect of model interpretability. The importance of features helps users, stakeholders, and data scientists gain insights into the decision-making process of the model.
 Some feature importance techniques are;
 
@@ -270,10 +332,10 @@ Some feature importance techniques are;
 
 Optimal feature selection provides greater predictive and explainability power of ML models. Understanding and communicating feature importance contribute to model transparency, interpretability, and trust, allowing stakeholders to make informed decisions based on the model's insights.
 
-# References:
+## References:
 1. https://www.heavy.ai/technical-glossary/feature-selection
 
-# Document the Demographics of the Training Dataset:
+## Document the Demographics of the Training Dataset:
 The documentation the demographics of the training dataset is an important step in understanding potential biases and ensuring transparency in machine learning models. This documentation helps stakeholders, including data scientists, policymakers, and users, gain insights into the representation of different demographic groups in the data. Demographic representativeness in training data and model transparency is necessary to ensure that ML models are deployed in an equitable and reproducible manner. Wider adoption of reporting guidelines is warranted to improve representativeness and reproducibility [1].
 A potentially useful guide on how to document the demographics of a training dataset:
 1. Identify Relevant Demographic Categories:
@@ -304,11 +366,11 @@ A potentially useful guide on how to document the demographics of a training dat
 8. Collaboration and Communication:
 - Stakeholder Involvement: Seek input from diverse stakeholders, including ethicists, domain experts, and community representatives, in the discussion and documentation process. Communicate findings and potential biases to relevant parties.
 
-# References:
+## References:
 1. Bozkurt S, Cahan EM, Seneviratne MG, Sun R, Lossio-Ventura JA, Ioannidis JPA, Hernandez-Boussard T. Reporting of demographic data and representativeness in machine learning models using electronic health records. J Am Med Inform Assoc. 2020 Dec 9;27(12):1878-1884. doi: 10.1093/jamia/ocaa164. PMID: 32935131; PMCID: PMC7727384. (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7727384/)
 2. Norori N, Hu Q, Aellen FM, Faraci FD, Tzovara A. Addressing bias in big data and AI for health care: A call for open science. Patterns (N Y). 2021 Oct 8;2(10):100347. doi: 10.1016/j.patter.2021.100347. PMID: 34693373; PMCID: PMC8515002.(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8515002/)
 
-# Explain How the ML Model Works, What Suggestions it Gives, How it Comes by those Suggestions:
+## Explain How the ML Model Works, What Suggestions it Gives, How it Comes by those Suggestions:
 The following guidelines can be followed in conveying to end users how the model works, what suggestions the model gives and how it comes by these conclusions [1].
 
 A. Overview of the ML Model:
@@ -410,10 +472,10 @@ Summarize the key points regarding how the model works, the suggestions it provi
 - User Empowerment:
 Emphasize the empowerment of users through a clear understanding of the model's functioning and suggestions.
 
-# References:
+## References:
 1. https://towardsdatascience.com/so-your-stakeholders-want-an-interpretable-machine-learning-model-6b13928892de
 
-# Explain how to use the AI Product and in what Circumstances the Use Might Need Modification:
+## Explain how to use the AI Product and in what Circumstances the Use Might Need Modification:
 An AI product is only as good as its usability and the ease with which users can interact with it[1]. The following guidelines can be used to smoothen the process of adoptibility for users.
 
 1. User Onboarding:
@@ -479,10 +541,10 @@ An AI product is only as good as its usability and the ease with which users can
 
 By providing a user-centric approach and addressing circumstances that may necessitate modifications, the AI product can remain adaptable, user-friendly, and aligned with evolving requirements.
 
-# References:
+## References:
 1. https://www.linkedin.com/advice/0/how-do-you-show-value-your-ai-stakeholders
 
-# Ensure Monitoring of Bias Detection in New Data Sets and New Features:
+## Ensure Monitoring of Bias Detection in New Data Sets and New Features:
 Monitoring bias detection in new datasets or features is essential for maintaining fairness and transparency in AI systems. The following steps are a helpful guide to apply. 
 - Identify key metrics to quantify bias in the dataset, such as demographic parity, equal opportunity, or disparate impact.
 
@@ -502,7 +564,7 @@ Monitoring bias detection in new datasets or features is essential for maintaini
 
 Bias detection is an ongoing process and applying a systematized approach to it ensures the fairness and transparency of AI systems
 
-# Model Comparison with Prior Versions/Versioning/Rollback Mechanisms/Incremental training:
+## Model Comparison with Prior Versions/Versioning/Rollback Mechanisms/Incremental training:
 Comparing models with prior versions, implementing versioning, enabling rollback mechanisms, and incorporating incremental training are critical aspects of maintaining and improving machine learning models. These critical aspects need to be integrated into your workflow [1]. The following scheme can be followed in your data science workstream[1];
 
 1. Model Comparison with Prior Versions:
@@ -575,73 +637,10 @@ Stakeholder Involvement:
 Involve diverse stakeholders, including data scientists, engineers, product managers, and business analysts, in the model management process.
 Foster collaboration and knowledge sharing to ensure alignment with business goals and user needs.
 
-# References:
+## References:
 1. https://towardsdatascience.com/model-rollbacks-through-versioning-7cdca954e1cc
 
-# Impact Assessment - Pre-implementation Simulated Test on Synthetic Data:
-Conducting impact assessment through simulated tests on synthetic data before model deployment to end users is a prudent approach to understand potential outcomes, assess risks, and refine the model's performance. The following blueprint can be useful in conducting such an assesment. 
-
-1. Define Objectives and Scenarios:
-
-- Objective Setting:
-Clearly define the objectives of the impact assessment, such as evaluating model performance, identifying potential biases, or assessing business impact.
-
-- Scenario Generation:
-Develop a set of realistic scenarios that represent different use cases, edge cases, and potential challenges the model may encounter in production.
-
-2. Synthetic Data Generation:
-
-- Data Synthesis:
-Generate synthetic datasets that mimic the characteristics and distributions of real-world data. Ensure that synthetic data covers a wide range of scenarios and includes relevant features and patterns observed in actual data.
-
-3. Model Evaluation:
-- Model Testing:
-Apply the model to synthetic data to simulate real-world predictions and outcomes. Evaluate model performance using predefined metrics and benchmarks.
-
-- Bias Detection:
-Assess potential biases in model predictions by analyzing outcomes across different demographic groups or sensitive attributes. Use fairness metrics and techniques to identify and mitigate biases.
-
-4. Risk Assessment:
-
-- Risk Identification:
-Identify potential risks or vulnerabilities associated with model predictions and decision-making processes.
-Consider ethical, legal, and operational risks that may arise from model deployment.
-
-- Impact Analysis:
-Assess the potential impact of model errors or failures on stakeholders, customers, and the organization.
-Quantify risks and prioritize mitigation strategies based on severity and likelihood.
-
-5. Sensitivity Analysis:
-
-- Parameter Variation:
-Conduct sensitivity analysis by varying model parameters, hyperparameters, or input features to understand their impact on model predictions. Identify robustness thresholds and determine how changes in parameters affect model performance and stability.
-
-6. Validation and Iteration:
-
-- Cross-Validation:
-Validate model performance on synthetic data using cross-validation techniques to ensure robustness and generalization.
-
-- Iterative Refinement:
-Iterate on model development based on insights gained from impact assessment.
-Refine model architecture, feature engineering, or training strategies to address identified risks and improve performance.
-
-7. Documentation and Reporting:
-
-- Results Documentation:
-Document findings from the impact assessment, including model evaluation results, risk assessments, and mitigation strategies.
-
-- Recommendations:
-Provide recommendations for model improvement, risk mitigation, and deployment strategies based on assessment outcomes.
-
-- Communication:
-Communicate assessment results and recommendations to relevant stakeholders, including data scientists, business leaders, and compliance officers.
-8. Continuous Learning and Improvement:
-
-- Feedback Incorporation:
-Incorporate feedback from the impact assessment into the model development process.
-Continuously monitor model performance in production and refine strategies based on real-world feedback and data.
-
-# Monitor Results and Contextualize Results:
+## Monitor Results and Contextualize Results:
 Monitoring and contextualizing results in the context of machine learning models are crucial steps for understanding model performance, identifying potential issues, and making informed data-driven decisions. The following blueprint can be used as a guide in this stage of the ML development  and productionization process. 
 
 1. Define Key Performance Indicators (KPIs):
