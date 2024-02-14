@@ -1,5 +1,7 @@
 # Post Development
-  # Ensure model is human interpretable:
+# Testing
+
+  ## Ensure model is human interpretable:
   The simplest way to ensure models are interpretable is to use models which by their design are interpretable[1]. The class of models which are apriori interpretable are Linear regression, logistic regression and decision trees. Neural network models commonly used in deep learning are not by design easily interpretable but techniques exists to ensure interpretability. Interpretability facilitates[2]:
 1. Understanding 
 2. Debugging and auditing ML model predictions 
