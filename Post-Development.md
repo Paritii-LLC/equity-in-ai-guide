@@ -231,6 +231,7 @@ Define protocols for model retraining, specifying when and how retraining should
 2. https://learn.microsoft.com/en-us/azure/machine-learning/how-to-monitor-datasets?
 
 # Model Explanation
+Model explanation, also known as model interpretability or explainability, refers to the process of understanding and interpreting how a machine learning model makes predictions or classifications. Model explanation is critcal for gaining insights into model behavior, identifying important features, and building trust in the model's predictions. This section examines model explanation using an equity-driven framework to document potential biases and where they arise, explain the data features the model considers important, documents the demographics of the training data and a pointer on how the model works and how to use it. 
 ## Document Potential Biases and Where They Arise:
 The documentation of potential biases and understanding where they arise is a crucial step in addressing fairness and ethics in machine learning models. The following structured approach to document potential biases can be applied;
 
