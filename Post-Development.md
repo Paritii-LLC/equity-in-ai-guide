@@ -1,5 +1,6 @@
 # Post Development
 # Testing
+Testing is a crucial aspect of the machine learning development process, ensuring that models are accurate, reliable, and robust in real-world scenarios. This section covers various strategies, recommendations and guidelines for evaluating algorithms and outputs for bias, dealing with bias, and testing models by conducting impact assessment through simulated tests on synthetic data before model deployment to end users
   ## Evaluate Algorithms and Output for Bias:
 Algorithmic bias occurs when AI/ML model design, data, and sampling result in measurably different model performance for different subgroups [1]. The two major courses of algorithmic bias are subgroup invalidity and label choice bias. Subgroup invalidity occurs when AI/ML is predicting an appropriate outcome or measure, but the model does not perform well for particular subgroups [1]. The underlying cause is when AI/ML models are trained on non-diverse populations or with data that underrepresents the subgroup or fails to include specific risk factors affecting them [1]. Label choice bias occurs when the algorithm’s predicted outcome is a proxy variable for the actual outcome it should be predicting [1].
 
