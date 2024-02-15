@@ -583,7 +583,7 @@ Foster collaboration and knowledge sharing to ensure alignment with business goa
 1. https://towardsdatascience.com/model-rollbacks-through-versioning-7cdca954e1cc
 
 # Output Adjustment & Interpretation
-Output adjustment and interpretation in the context of machine learning refer to techniques used to modify or interpret model predictions to make them more equity focused, less biased, meaningful, actionable, and understandable. Tiis section covers potential impact assessment  of the output prior to human interpretation and contextualization of results using an equity-driven framework. 
+Output adjustment and interpretation in the context of machine learning refer to techniques used to modify or interpret model predictions to make them more equity focused, less biased, meaningful, actionable, and understandable. This section covers potential impact assessment  of the output prior to human interpretation and contextualization of results using an equity-driven framework. 
 ## Potential Impact Assessment of Output:
 It is imoprtant to practically test the output of a machine learning model prior to human interpretation. There are three testing methods that can be used, namely [1];
 
@@ -674,6 +674,7 @@ Foster collaboration between data scientists, domain experts, business stakehold
 By effectively monitoring and contextualizing results of ML/AI models, organizations can gain deeper insights into model performance, identify areas for improvement, and ensure that machine learning solutions align with organization objectives and user needs over time.
 
 # Maintainance
+Maintenance of machine learning models is crucial for ensuring their continued effectiveness, reliability, and relevance over time. This process involves continuous monitoring of model outputs, new incoming data for bias in input and output. In this section, methods to avoid bias evolving in the learning model over time, proper documentation on model design and implications, and continuous fairness monitoring are introduced to help developers implement equity-aware maintaince protocols in machine learning model development. 
 ## Avoid Bias Evolving in the Learning Model Over Time:
  Bias in machine learning models refers to systematic errors introduced by algorithms or training data that lead to unfair or disproportionate predictions for specific groups or individuals [1]. Such biases can arise due to historical imbalances in the training data, algorithm design, or data collection process [1]. You avoid bias evolving in the ML model over time by assesing several metrics and methodologies used to assess bias namely [1];
 - Disparate Impact Analysis: This technique examines the disparate impact of an AI model's decisions on different demographic groups. It measures the difference in model outcome for various groups and highlights potential biases.
