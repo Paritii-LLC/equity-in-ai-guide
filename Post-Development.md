@@ -1,4 +1,6 @@
 # Post Development
+The post-development phase of a machine learning project is the stage where the focus shifts from initial development and deployment to ongoing maintenance, optimization, and evaluation. This section will cover through an equity-focused lens, the post-development stages of testing, model deployment and monitoring, model explanation, model retraining, output adjustment and interpretation, and finally maintenance. 
+
 # Testing
 Testing is a crucial aspect of the machine learning development process, ensuring that models are accurate, reliable, and robust in real-world scenarios. This section covers various strategies, recommendations and guidelines for evaluating algorithms and outputs for bias, dealing with bias, and testing models by conducting impact assessment through simulated tests on synthetic data before model deployment to end users
   ## Evaluate Algorithms and Output for Bias:
