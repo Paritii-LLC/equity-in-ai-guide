@@ -485,6 +485,7 @@ By providing a user-centric approach and addressing circumstances that may neces
 1. https://www.linkedin.com/advice/0/how-do-you-show-value-your-ai-stakeholders
 
 # Model Retraining
+Model retraining is the process of updating a machine learning model with new data or refining its parameters to ensure that it remains accurate and effective over time. It is important that this process should be driven by equity-aware practices. This section covers how to ensure monitoring of bias detection in new datasets and new features, model comparison with prior versions,versioning, rollback mechanisms and the methods of incremental training that can be applied to lessen bias in the retraining stage.
 ## Ensure Monitoring of Bias Detection in New Data Sets and New Features:
 Monitoring bias detection in new datasets or features is essential for maintaining fairness and transparency in AI systems. The following steps are a helpful guide to apply. 
 - Identify key metrics to quantify bias in the dataset, such as demographic parity, equal opportunity, or disparate impact.
