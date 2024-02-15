@@ -184,7 +184,7 @@ Communicate assessment results and recommendations to relevant stakeholders, inc
 Incorporate feedback from the impact assessment into the model development process.
 Continuously monitor model performance in production and refine strategies based on real-world feedback and data.
  # Model Deployment and Modeling
-
+Model deployment is the process of making a trained machine learning model available for use in a production environment where it can generate predictions or classifications on new data. This section covers the choice of ethical deployment infrastructure, automated alerts, and performance metric monitoring. developers by following these processes outlined here can effectively deploy equitable machine learning models into production environments, enabling them to generate predictions or classifications on new data. 
  ## Ethical infrastructure: Choose Deployment Platforms that Allow for Proper Model Management - e.g. TensorFlow, TouchServe, AWS SageMaker
 Selecting deployment platforms that facilitate proper model management is a crucial aspect of building an ethical infrastructure for machine learning applications. The choice of deployment platforms can significantly impact the transparency, accountability, and fairness of your models.
 Deployment platforms should combine a wide range of essential capabilities and tools, which should include [1]:
