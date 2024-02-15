@@ -583,6 +583,7 @@ Foster collaboration and knowledge sharing to ensure alignment with business goa
 1. https://towardsdatascience.com/model-rollbacks-through-versioning-7cdca954e1cc
 
 # Output Adjustment & Interpretation
+Output adjustment and interpretation in the context of machine learning refer to techniques used to modify or interpret model predictions to make them more equity focused, less biased, meaningful, actionable, and understandable. Tiis section covers potential impact assessment  of the output prior to human interpretation and contextualization of results using an equity-driven framework. 
 ## Potential Impact Assessment of Output:
 It is imoprtant to practically test the output of a machine learning model prior to human interpretation. There are three testing methods that can be used, namely [1];
 
