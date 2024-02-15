@@ -594,7 +594,7 @@ It is imoprtant to practically test the output of a machine learning model prior
 1. https://deepchecks.com/how-to-test-machine-learning-models/
 
 ## Monitor Results and Contextualize Results:
-Monitoring and contextualizing results in the context of machine learning models are crucial steps for understanding model performance, identifying potential issues, and making informed data-driven decisions. The following blueprint can be used as a guide in this stage of the ML development  and productionization process. 
+Monitoring and contextualizing results in the context of machine learning models are crucial steps for understanding model performance, identifying potential issues, and making informed data-driven decisions [1]. The following blueprint can be used as a guide in this stage of the ML development  and productionization process. 
 
 1. Define Key Performance Indicators (KPIs):
 
@@ -673,6 +673,8 @@ Foster collaboration between data scientists, domain experts, business stakehold
 
 By effectively monitoring and contextualizing results of ML/AI models, organizations can gain deeper insights into model performance, identify areas for improvement, and ensure that machine learning solutions align with organization objectives and user needs over time.
 
+# References:
+1. https://neptune.ai/blog/how-to-monitor-your-models-in-production-guide
 # Maintainance
 Maintenance of machine learning models is crucial for ensuring their continued effectiveness, reliability, and relevance over time. This process involves continuous monitoring of model outputs, new incoming data for bias in input and output. In this section, methods to avoid bias evolving in the learning model over time, proper documentation on model design and implications, and continuous fairness monitoring are introduced to help developers implement equity-aware maintaince protocols in machine learning model development. 
 ## Avoid Bias Evolving in the Learning Model Over Time:
