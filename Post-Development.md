@@ -108,7 +108,7 @@ L. Examine Feature Importance: Understand which features contribute the most to 
 1. https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229
 2. https://www.analyticsvidhya.com/blog/2023/01/ensemble-learning-methods-bagging-boosting-and-stacking/
 
-  ## Ensure model is human interpretable:
+  ## Ensure Model is Human Interpretable:
   The simplest way to ensure models are interpretable is to use models which by their design are interpretable[1]. The class of models which are apriori interpretable are Linear regression, logistic regression and decision trees. Neural network models commonly used in deep learning are not by design easily interpretable but techniques exists to ensure interpretability. Interpretability facilitates[2]:
 1. Understanding 
 2. Debugging and auditing ML model predictions 
@@ -506,7 +506,7 @@ Monitoring bias detection in new datasets or features is essential for maintaini
 
 Bias detection is an ongoing process and applying a systematized approach to it ensures the fairness and transparency of AI systems
 
-## Model Comparison with Prior Versions/Versioning/Rollback Mechanisms/Incremental training:
+## Model Comparison with Prior Versions/Versioning/Rollback Mechanisms/Incremental Training:
 Comparing models with prior versions, implementing versioning, enabling rollback mechanisms, and incorporating incremental training are critical aspects of maintaining and improving machine learning models. These critical aspects need to be integrated into your workflow [1]. The following scheme can be followed in your data science workstream[1];
 
 1. Model Comparison with Prior Versions:
