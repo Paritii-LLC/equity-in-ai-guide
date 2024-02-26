@@ -1,4 +1,10 @@
 # Rubric: AI Equity Rubric Guidelines for Developers
+The pre-development phase is foundational for cultivating responsible AI practices. By beginning here and focusing on equity during this phase, you will lay the groundwork for building systems that prioritize fairness and inclusivity, essential values for the responsible advancement of AI technology. Pre-development considerations include:
+
+## Purpose and Ideation: (link to section) Learn to lead your team in defining goals, problem statements, and use cases that address the root causes of issues you intend to solve with your AI solution while avoiding unintended harm and promoting equitable outcomes.
+## Stakeholder Engagement: (link to section) Learn how to collaborate authentically with the stakeholders that influence and will be affected by the solution to develop an AI system responsive to the stakeholders’ needs and unique experiences.
+## Infrastructure Assessment: (link to section) Learn about the ingredients for successful development and implementation and how to guide your team through an organizational and infrastructure assessment before development begins
+## Risk and Fairness:  (link to section) Learn how to assess the readiness and risk associated with the development of your AI solution and make important decisions about fairness and bias that influence how your solution promotes equity
 
 # Infrastructure Assessment
 An organization seeking to build or implement an AI/ML system needs to conduct an infrastructure assessment to determine what they need to successfully build an AI/ML system. The infrastructure model consists of hardware and software components that are necessary for building and training AI models. Components such as specialized processors like GPUs (hardware) and optimization and deployment tools (software) fall under the infrastructure umbrella [1]. The following considerations will help organizations and developers navigate the process. 
