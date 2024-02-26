@@ -10,8 +10,9 @@ Learn how to collaborate authentically with the stakeholders that influence and 
 * Infrastructure Assessment: (link to section) 
 Learn about the ingredients for successful development and implementation and how to guide your team through an organizational and infrastructure assessment before development begins
 * Risk and Fairness:  (link to section) 
-Learn how to assess the readiness and risk associated with the development of your AI solution and make important decisions about fairness and bias that influence how your solution promotes equity
-For complete information, practical guides and resources on pre-development please visit our website(link)
+Learn how to assess the readiness and risk associated with the development of your AI solution and make important decisions about fairness and bias that influence how your solution promotes equity.
+
+For complete information, practical guides and resources on pre-development please visit our website(link).
 ## Purpose and Ideation
 The purpose and ideation phase sets the direction and foundation for your AI solution, aligning it to the needs of those most impacted by its outputs. Considering equity throughout the ideating activities (defining the problem, setting goals, and aligning use cases) creates the conditions for an AI system that prioritizes fairness, inclusivity, and transparency.
 ### Problem Definition
