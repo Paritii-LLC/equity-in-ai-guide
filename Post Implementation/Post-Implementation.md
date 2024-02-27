@@ -22,3 +22,23 @@ AI literacy and end-user education complement each other in promoting the explai
 
 For complete information, practical guides and resources on AI Literacy, Education, and Awareness Building, please visit our website(link).
 ## Customer Feedback and Impact
+User Experience(UX) testing is a comprehensive approach to evaluating a user's experience with a digital product or service at every touchpoint, focusing on their perception of its performance, emotional response, perceived value, and overall satisfaction. It involves real or representative users evaluating a product by attempting to complete tasks without prior knowledge. Collecting customer feedback during UX testing is a necessary step in developing and implementing equitable AI solutions, because it empowers leaders with the information needed to identify and address bias and barriers to access for a diverse user base. 
+
+Once user testing has been conducted, a range of key usability metrics comes into play, serving as critical indicators to unlock valuable user insights. These metrics provide a robust framework for understanding user interactions, satisfaction, and product effectiveness and efficiency, highlighting areas of strength and pinpointing opportunities for improvement.
+* Completion Rate: Measures the percentage of users who complete a given task. A high completion rate indicates that a website or application is easy to use and navigate.
+* Error Rate: Tracks the number of errors users make while performing tasks. This metric helps identify areas of a product that may be confusing or difficult to use.
+* Time on Task: Evaluates the amount of time users spend completing a specific task. Shorter times typically suggest better usability, although some tasks may require more in-depth engagement.
+* User Satisfaction: Assessed through surveys and feedback forms, this metric provides direct insight into how users feel about their experience with the product.
+* Task Success Rate: this metric focuses on whether users can successfully achieve their goals within the application or website.
+* Clicks to Completion: Measures how many clicks or interactions it takes for a user to complete a task. Fewer clicks generally indicate a more efficient, user-friendly design.
+* Usability Test Scores: Derived from structured usability tests, these scores compile various aspects of user interactions and satisfaction into a comprehensive assessment of the product’s usability.
+* Net Promoter Score (NPS): A key indicator of customer loyalty, NPS measures how likely users are to recommend the product or service to others. It categorizes respondents into Promoters, Passives, and Detractors based on their likelihood to recommend.
+* Customer Satisfaction (CSAT): This KPI gauges user satisfaction with a product or service at specific touchpoints or after particular interactions.
+* Conversion Rate: Tracks the percentage of users who take a desired action, such as making a purchase or signing up for a newsletter, which can indicate the effectiveness of the UX design in facilitating user goals.
+* Retention Rate: Measures how many users continue to use the product over time, reflecting the long-term value and usability of the product.
+* Task Load Index (NASA-TLX): A more specialized metric, the Task Load Index assesses the perceived workload required to use the product, considering factors like effort and frustration.
+
+The UX and customer feedback research constitute an iterative process, not one-time actions. Establishing a continuous feedback loop post-development will provide insights and customer inputs as developers refine their products. 
+
+For complete information, practical guides and resources on customer feedback and impact, please visit our website(link).
+## Post Launch Assessment Guide and Strategic Decisions for Ongoing Use
