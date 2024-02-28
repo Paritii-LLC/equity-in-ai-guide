@@ -30,6 +30,7 @@ For complete information, practical guides and resources on stakeholder engageme
 
 ## Infrastructure Assessment
 An organization seeking to build or implement an AI/ML system needs to conduct an infrastructure assessment to determine what it will need to build an AI/ML system successfully. The infrastructure refers to hardware and software components for building and training AI models. Components like specialized processors like GPUs (hardware) and optimization and deployment tools (software) fall under the infrastructure umbrella. 
+
 At the beginning of their development operations (Dev-Ops), developers need to consider the following questions when developing their strategy for infrastructure assessment.
 * Data Availability and Quality: Assess the organization's data's availability, quality, and relevance. Ensure it has enough high-quality data to train AI models and derive meaningful insights 
 * Data Governance: Establish a data governance framework not only at an organizational level. In the specific context of AI project development, developers should also develop a stringent data governance framework that outlines data collection, storage, usage, and protection practices. Address privacy, security, and ethical concerns associated with AI/ML adoption 
