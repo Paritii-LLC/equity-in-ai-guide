@@ -42,11 +42,13 @@ Once user testing has been conducted, a range of key usability metrics come into
 
 The UX and customer feedback research constitute an iterative process, not one-time actions. Establishing a continuous feedback loop post-development will provide insights and customer inputs as developers refine their products. 
 
-For complete information, practical guides and resources on customer feedback and impact, please visit our website(link).
+For complete information, practical guides and resources on customer feedback and impact, please visit our website(https://www.paritii.com/detail/customer-feedback-impact).
 ## Post Launch Assessment Guide and Strategic Decisions for Ongoing Use
 Post-launch assessments are essential for maintaining fairness, transparency, and accountability and ensuring that products and services remain inclusive and responsive to the diverse needs and preferences of all users. Organizations can identify and address any potential biases or disparities that may arise after launch by conducting iterative assessments, thereby promoting fairness and equity in the user experience. 
 ### Ongoing Evaluation
-Performance evaluation is a set of measures to assess the effectiveness, efficiency, and reliability of machine learning models. The following measures, when implemented, can ensure a robust approach to gauging the effectiveness of machine learning model development and adoption.
+Performance evaluation is a set of measures to assess the effectiveness, efficiency, and reliability of machine learning models.[^2]:
+[^2]: Srivastava, T. (2019, August 6). 12 Important Model Evaluation Metrics for Machine Learning Everyone Should Know (Updated 2023). Analytics Vidhya. https://www.analyticsvidhya.com/blog/2019/08/11-important-model-evaluation-error-metrics/
+The following measures, when implemented, can ensure a robust approach to gauging the effectiveness of machine learning model development and adoption.
 * Model Metrics:
 Model metrics are quantitative measures used to evaluate the performance of machine learning models. These metrics provide insights into how well a model is performing and can help assess its effectiveness for a given task. It is important to evaluate model performance metrics such as accuracy, precision, recall, F1 score, and area under the ROC curve (AUC), and assess performance on both training and test/validation datasets.
 * Real-World Performance:
