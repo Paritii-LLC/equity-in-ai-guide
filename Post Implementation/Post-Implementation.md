@@ -58,6 +58,7 @@ A comparative analysis involves evaluating the performance, features, or charact
 
 Anomaly detection and error analysis help identify and understand model shortcomings and evaluate the performance and reliability of machine learning models, particularly in applications where identifying unusual or unexpected patterns is essential.[^3]:
 [^3]:Anomaly Detection in Machine Learning. (2021). Anomaly Detection in Machine Learning. https://serokell.io/blog/anomaly-detection-in-machine-learning.
+
 **Error analysis**  in the context of equity in AI refers to the examination and understanding of the types and sources of errors made by machine learning models, particularly concerning their impact on fairness, inclusivity, and ethical considerations. 
 
 Model robustness and stability are essential attributes of machine learning models, ensuring that they perform reliably and consistently across different conditions, datasets, and environments. Robustness is the ability of a model to maintain performance and generalization capabilities under perturbations or variations in input data, such as noise, outliers, or adversarial attacks. Stability is the consistency of a model's predictions and behavior across different datasets, subsets of data, or operational conditions, reflecting its reliability and resilience to changes.
