@@ -1,4 +1,4 @@
-# Paritii AI Equity Framework and Toolkit for ML/AI Development
+# Paritii AI Equity Framework and Guide for ML/AI Development
 This guide is designed to assist Educational Technology leaders and developers create more inclusive and equitable AI for higher education. It begins by defining key concepts like equity, trust, accountability, and responsibility in the context of AI in EdTech. It then examines how bias impacts equity and how addressing it can improve student outcomes, institutional metrics, and the vendor's profitability. It offers a comprehensive roadmap for ensuring equity is infused throughout the machine learning pipeline, complete with rationale, resources, sample code, examples, and tools project teams and developers can quickly implement.
 
 Building AI solutions requires a comprehensive toolkit encompassing various tools, libraries, frameworks, and platforms. Paritii AI has created a zoo of predevelopment considerations, development, production, and post-production processes that incorporate bias and equity considerations in the entire AI/ML lifecycle in this GitHub repo.
