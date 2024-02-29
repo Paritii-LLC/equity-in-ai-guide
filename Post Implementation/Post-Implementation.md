@@ -61,7 +61,10 @@ Anomaly detection and error analysis help identify and understand model shortcom
 
 **Error analysis**  in the context of equity in AI refers to the examination and understanding of the types and sources of errors made by machine learning models, particularly concerning their impact on fairness, inclusivity, and ethical considerations. 
 
-Model robustness and stability are essential attributes of machine learning models, ensuring that they perform reliably and consistently across different conditions, datasets, and environments. Robustness is the ability of a model to maintain performance and generalization capabilities under perturbations or variations in input data, such as noise, outliers, or adversarial attacks. Stability is the consistency of a model's predictions and behavior across different datasets, subsets of data, or operational conditions, reflecting its reliability and resilience to changes.
+Model robustness and stability are essential attributes of machine learning models, ensuring that they perform reliably and consistently across different conditions, datasets, and environments.[^4]:
+[^4]:  Performance: Robustness and Stability | DataRobot AI Platform. (2023, April 4). DataRobot AI Platform. https://www.datarobot.com/trusted-ai-101/performance/robustness-and-stability/
+
+Robustness is the ability of a model to maintain performance and generalization capabilities under perturbations or variations in input data, such as noise, outliers, or adversarial attacks. Stability is the consistency of a model's predictions and behavior across different datasets, subsets of data, or operational conditions, reflecting its reliability and resilience to changes.
 
 Some practices to support robustness and performance stability include:
 
