@@ -33,9 +33,8 @@ Once you have identified stakeholders and their motivations and mapped levels of
 For complete information, practical guides and resources on stakeholder engagement, please visit our website(https://www.paritii.com/detail/stakeholder-engagement).
 
 ## Infrastructure Assessment
-An organization seeking to build or implement an AI/ML system needs to conduct an infrastructure assessment to determine what it will need to build an AI/ML system successfully. The infrastructure refers to hardware and software components for building and training AI models. Components like specialized processors like GPUs (hardware) and optimization and deployment tools (software) fall under the infrastructure umbrella[^1]
-
-[^1]  AI infrastructure explained. (2023). Redhat.com. https://www.redhat.com/en/topics/ai/ai-infrastructure-explained
+An organization seeking to build or implement an AI/ML system needs to conduct an infrastructure assessment to determine what it will need to build an AI/ML system successfully. The infrastructure refers to hardware and software components for building and training AI models. Components like specialized processors like GPUs (hardware) and optimization and deployment tools (software) fall under the infrastructure umbrella[^1]:
+[^1]:  AI infrastructure explained. (2023). Redhat.com. https://www.redhat.com/en/topics/ai/ai-infrastructure-explained.
 
 At the beginning of their development operations (Dev-Ops), developers need to consider the following questions when developing their strategy for infrastructure assessment.
 * Data Availability and Quality: Assess the organization's data's availability, quality, and relevance. Ensure it has enough high-quality data to train AI models and derive meaningful insights 
