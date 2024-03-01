@@ -23,7 +23,8 @@ One synthetic data generation tool geared toward equity considerations is [Synth
 
 ## Context of Collection
 The rationale behind data collection efforts is as important as the data itself. Understanding why data was gathered helps in assessing its suitability for a particular modeling task. Bias in data collection methods can reinforce existing stereotypes and inequalities. Data inequity can occur when[^1]:
-[^1]BOOM. (2024, February 19). How EdTech Companies Get Away With Exploiting Data Of Minors. BOOM. https://www.boomlive.in/decode/how-edtech-companies-get-away-with-exploiting-data-of-minors-22896
+
+[^1]:BOOM. (2024, February 19). How EdTech Companies Get Away With Exploiting Data Of Minors. BOOM. https://www.boomlive.in/decode/how-edtech-companies-get-away-with-exploiting-data-of-minors-22896
 * Data is collected without proper consent or transparency, as some applications may claim not to collect personal data while actually exfiltrating it
 * Data collected is not representative of the target population or context, leading to biased models and inaccurate predictions
 * Data collection and analysis may not consider privacy concerns, potentially leading to data breaches and misuse.
@@ -35,8 +36,8 @@ A critical aspect of data collection is ensuring that the dataset accurately rep
 In addition to the careful design and execution of data acquisition and collection processes, it is crucial to consider various factors that may influence the quality and fairness of the data. This includes assessing the representativeness of the data sample, identifying and mitigating potential biases in the data, ensuring compliance with privacy regulations and ethical guidelines, and promoting transparency and accountability throughout the data collection pipeline.
 
 ## Overview of Synthetic Data
-Synthetic data in machine learning and AI refers to artificially generated data that mimics the characteristics and distribution of real-world data. As with any decision regarding data, synthetic data has both benefits and risks. They can address issues of representation and inclusivity by generating data that reflects diverse populations and scenarios, thereby mitigating biases present in real-world data. Additionally, synthetic data sets can provide a way to explore sensitive or underrepresented topics without compromising individuals' privacy or security, promoting ethical data practices. More specifically, these benefits include [^1]:
-[^1]: Jordon, J., Szpruch, L., Houssiau, F., Bottarelli, M., Cherubin, G., Maple, C., Cohen, S., & Weller, A. (2022). Synthetic Data - what, why and how? [https://arxiv.org/pdf/2205.03257.pdf](https://arxiv.org/pdf/2205.03257.pdf)
+Synthetic data in machine learning and AI refers to artificially generated data that mimics the characteristics and distribution of real-world data. As with any decision regarding data, synthetic data has both benefits and risks. They can address issues of representation and inclusivity by generating data that reflects diverse populations and scenarios, thereby mitigating biases present in real-world data. Additionally, synthetic data sets can provide a way to explore sensitive or underrepresented topics without compromising individuals' privacy or security, promoting ethical data practices. More specifically, these benefits include [^2]:
+[^2]: Jordon, J., Szpruch, L., Houssiau, F., Bottarelli, M., Cherubin, G., Maple, C., Cohen, S., & Weller, A. (2022). Synthetic Data - what, why and how? [https://arxiv.org/pdf/2205.03257.pdf](https://arxiv.org/pdf/2205.03257.pdf)
 
 * Data Diversity: Synthetic data can help introduce diversity into training datasets, enabling machine learning models to generalize better and perform well on unseen data.
 * Privacy Protection: It allows organizations to leverage data for training models while preserving privacy and complying with data protection regulations.
