@@ -56,8 +56,8 @@ For complete information, practical guides and resources on data availability pl
 This section covers the key aspects of evaluating, implementing, and maintaining machine learning (ML) systems. Covering the importance of defining expected outcomes and success metrics, selecting appropriate ML domains and metrics considering their evolution, and ensuring system performance while addressing potential biases.
 
 ## Data Equity and Fairness Considerations
-Ensuring data equity and fairness is fundamental in the development of responsible AI systems.[2^]: 
-[2^]: Daniel Domínguez Figaredo, & Stoyanovich, J. (2023). Responsible AI literacy: A stakeholder-first approach. Big Data & Society, 10(2). https://doi.org/10.1177/20539517231219958
+Ensuring data equity and fairness is fundamental in the development of responsible AI systems.[3^]: 
+[3^]: Daniel Domínguez Figaredo, & Stoyanovich, J. (2023). Responsible AI literacy: A stakeholder-first approach. Big Data & Society, 10(2). https://doi.org/10.1177/20539517231219958
 
 Biases or inequities in data can propagate and amplify throughout the AI lifecycle, leading to biased or unfair outcomes. Data equity entails providing equitable access to high-quality data that accurately represent diverse perspectives and experiences, while fairness in data involves mitigating biases and discrimination in data collection, processing, and use. 
 
