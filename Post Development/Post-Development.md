@@ -264,7 +264,8 @@ Comparing models with prior versions, implementing versioning, enabling rollback
 Output adjustment and interpretation in machine learning refer to techniques used to modify or interpret model predictions to make them more equity-focused, less biased, meaningful, actionable, and understandable. This section covers the potential impact assessment of the output before human interpretation and contextualization of results using an equity-driven framework.
 
 ### Potential Impact Assessment of Output
-This testing phase allows developers to evaluate the model's performance in real-world scenarios and identify any biases, disparities, or unintended consequences that may arise. Three testing methods can be used [^17]:
+This testing phase allows developers to evaluate the model's performance in real-world scenarios and identify any biases, disparities, or unintended consequences that may arise. Three testing methods can be used [^18]:
+[18^]:  How to Test Machine Learning Models. (2022, December 7). Deepchecks. Retrieved February 19, 2024, from https://deepchecks.com/how-to-test-machine-learning-models/
 
 * The invariance test defines input changes that are expected to leave model outputs unaffected. A common method for testing invariance is related to data augmentation. It involves pairing up modified and unmodified input examples and seeing how much this affects the model output.
 * A directional expectation test is run to check how a change in the input distribution changes the expected output. An example is testing assumptions about the number of bathrooms or property size when predicting house prices. A higher number of bathrooms should mean a higher price prediction. Seeing a different result might reveal wrong assumptions about the relationship between our input and output or the distribution of our dataset.
