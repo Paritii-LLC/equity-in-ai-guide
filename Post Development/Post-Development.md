@@ -235,20 +235,9 @@ Monitoring bias detection in new datasets or features is essential for maintaini
 * Incorporate human reviewers or ethicists to assess potential biases in new datasets or features.
 
 Bias detection is an ongoing process, and applying a systematized approach ensures AI systems' fairness and transparency.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Model Versioning
+Comparing models with prior versions, implementing versioning, enabling rollback mechanisms, and incorporating incremental training facilitate the management of changes and updates, ensure reproducibility, and allow for adaptation to evolving data and requirements. The following scheme can guide developers in integrating these aspects into their workflow[^17]:
+[^17]: Henry, J. (2023, January 16). Model Rollbacks Through Versioning | by Jazmia Henry. Towards Data Science. Retrieved February 19, 2024, from https://towardsdatascience.com/model-rollbacks-through-versioning-7cdca954e1cc
 * Model Comparison with Prior Versions: Continuously track performance metrics (e.g., accuracy, precision, recall) for each model version. Compare the performance of new models with previous versions to assess improvements or regressions.
 * Versioning:
   * Unique Identifiers: Assign unique identifiers to each model version to facilitate tracking and management.
