@@ -195,20 +195,23 @@ Document the following attributes to document how the machine learning model wor
 An AI product is only as good as its usability and the ease with which users can interact with it[^15]. Developers can use the following guidelines to ease users' adoption.
 1. Overview of the Product: Start by providing an overview of the AI product, including its purpose, main features, and capabilities. This helps users understand what the product does and how it can help them.
 2. User Scenarios: Provide specific examples or scenarios that illustrate how users can use the product in their daily lives or work. This helps users visualize how the product can be applied to real-world situations and solve their problems. These scenarios should include:
-  - a. Context about the user's situation or environment. This helps users understand the scenario and relate it to their own experiences.
- -  b. A clearly articulated problem statement that explains the challenge that the user is facing. This helps users understand the motivation behind using the AI product and how it can help address their needs.
- -   c. The goals or objectives that the user wants to achieve. This helps users understand what they are trying to accomplish with the AI product and how it fits into their workflow or activities.
--   d. An explanation how the user interacts with the AI product to achieve their goals. 
--   e. The benefits or outcomes that the user experiences as a result of using the AI product. 
--  f. A description of the end result or resolution of the scenario. This helps users understand the impact of using the AI product and how it contributes to their overall success.
+   a. Context about the user's situation or environment. This helps users understand the scenario and relate it to their own experiences.
+   b. A clearly articulated problem statement that explains the challenge that the user is facing. This helps users understand the motivation behind using the AI product and how it can help address their needs.
+   c. The goals or objectives that the user wants to achieve. This helps users understand what they are trying to accomplish with the AI product and how it fits into their workflow or activities.
+   d. An explanation how the user interacts with the AI product to achieve their goals. 
+   e. The benefits or outcomes that the user experiences as a result of using the AI product. 
+   f. A description of the end result or resolution of the scenario. This helps users understand the impact of using the AI product and how it contributes to their overall success.
 3. User Onboarding: Provide a user-friendly setup process, guiding users through the initial steps to use the AI product. Offer tutorials or guides explaining key features and functionalities and provide customer support for end users.
-4. Feedback Mechanisms: Establish channels for users to provide feedback on the AI product's performance. Encourage users to report issues or suggest improvements. Stay attuned to evolving user needs and adapt the product accordingly.
-5. Monitoring and Analytics: Provide users with dashboards displaying key performance metrics. Enable users to monitor the AI product's performance over time.
-6. Adaptability to Data Changes: Implement mechanisms to detect and alert users to changes in the input data distribution. Provide guidance on adapting the model to new data.
-7. Scaling and Resource Management: Offer guidelines for scaling the AI product as user demands grow. Provide recommendations for resource allocation and optimization.
-8. Integration with Existing Systems: Provide clear documentation and APIs for seamless integration with other systems. Ensure compatibility with common data formats and protocols.
-9. Security and Privacy Considerations: Outline security measures in place to protect user data and maintain privacy. Educate users on best practices for secure usage. 
-10. Version Control and Updates: Implement a versioning system for the AI product to manage updates. Communicate changes, improvements, and potential impacts with each version.
+4. Input Data Preparation: Specify the required format for input data, ensuring users understand how to structure the data. Implement validation mechanisms to catch errors in input data.
+5. Parameter Tuning: Identify and communicate parameters that users can tune based on their needs. Provide default settings but allow customization for diverse use cases.
+6. Feedback Mechanisms: Establish channels for users to provide feedback on the AI product's performance. Encourage users to report issues or suggest improvements. Stay attuned to evolving user needs and adapt the product accordingly.
+7. Monitoring and Analytics: Provide users with dashboards displaying key performance metrics. Enable users to monitor the AI product's performance over time.
+8. Adaptability to Data Changes: Implement mechanisms to detect and alert users to changes in the input data distribution. Provide guidance on adapting the model to new data.
+9. Scaling and Resource Management: Offer guidelines for scaling the AI product as user demands grow. Provide recommendations for resource allocation and optimization.
+10. Integration with Existing Systems: Provide clear documentation and APIs for seamless integration with other systems. Ensure compatibility with common data formats and protocols.
+11. Security and Privacy Considerations: Outline security measures in place to protect user data and maintain privacy. Educate users on best practices for secure usage. 
+12. Version Control and Updates: Implement a versioning system for the AI product to manage updates. Communicate changes, improvements, and potential impacts with each version.
+
 
 ## Model Retraining
 Model retraining is updating a machine learning model with new data or refining its parameters to ensure that it remains accurate and effective over time. Equity-aware practices must drive this process. 
