@@ -43,13 +43,13 @@ Biases Between Groups:
 
 Within-group bias refers to the tendency of machine learning algorithms to favor or prioritize certain groups of individuals over others based on specific characteristics such as race, gender, or ethnicity. This bias can arise when the data used to train the machine learning algorithm is imbalanced or represents a limited range of individuals. In the context of within-group bias in machine learning, intersectionality highlights how biases are not only based on individual characteristics but also on the intersections of these characteristics. For example, a machine learning algorithm that exhibits within-group bias may favor one racial group over others and disproportionately favor one gender within that racial group, which means that individuals who belong to multiple marginalized groups may face compounded biases that are not accounted for by simply considering each characteristic in isolation[^9].
 [^9]: Buolamwini, J., Gebru, T., Friedler, S., & Wilson, C. (2018). Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification *. Proceedings of Machine Learning Research, 81(81), 1–15. https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf
-Biases Within Groups:
+Using the strategies below can help mitigate within-group bias.
 * Subgroup Analysis: Conduct subgroup analysis to identify biases within specific groups. This analysis involves examining how the algorithm's performance varies across subpopulations.
 * Fine-Grained Fairness Metrics: Define and use fine-grained fairness metrics that assess performance within subgroups, preventing the perpetuation of biases.
 * Customized Mitigation Strategies: Develop targeted mitigation strategies for specific subgroups if biases are identified. These strategies could involve adjusting model parameters or implementing custom fairness interventions.
 * Localized Training Data: Consider using localized or customized training data for certain subgroups to address specific cultural or contextual nuances.
 * Sensitivity Analysis: Conduct sensitivity analyses to understand how changes in input features affect outcomes within different subgroups. These analyses can help identify and address biases at a granular level.
-* User Feedback Loops: Establish feedback mechanisms that allow users to report biases or issues specific to their subgroup. Use this feedback to improve the algorithm continuously.
+* User Feedback Loops:  Establish feedback mechanisms that allow users to report biases or issues specific to their subgroup. Use this feedback to improve the algorithm continuously.
 * Inclusive Design Principles: Incorporate inclusive design principles, involving users from diverse backgrounds in the development process to ensure that the algorithm meets the needs of all user groups.
 * Regular Audits: Implement regular audits and evaluations of the algorithm's performance, focusing on both overall fairness and fairness within specific subgroups. 
 
@@ -93,7 +93,7 @@ Before deploying the model to end users, developers should conduct impact assess
 * Feedback Incorporation: Incorporate feedback from the impact assessment into the model development process. Continuously monitor model performance in production and refine strategies based on real-world feedback and data.
 
 # Model Deployment and Modeling
-Deploying a model validates the feasibility and effectiveness of the developer's solution, enabling them to make a tangible impact by solving practical problems and delivering value to users or stakeholders. Developers must consider equity throughout the deployment process, from initial training to final implementation in production environments. Deploying equitable machine learning models involves validating the solution's feasibility and effectiveness and assessing its potential impact on diverse user groups. 
+Deploying equitable machine learning models involves validating the solution's feasibility and effectiveness and assessing its potential impact on diverse user groups. Developers must consider equity throughout the deployment process, from initial training where equitable data representation must be implemented.  For example, developers should implement mechanisms for continuous monitoring of the model's performance in production environments. This includes monitoring fairness metrics to ensure that the model's behavior remains equitable over time. to final implementation in production environments where rigorous fairness metrics tests have been conducted on model outputs to ensure equitable model predictions.
 
 ## Ethical Infrastructure
 Deployment platforms can support an ethical infrastructure with a Responsible AI dashboard that helps analyze algorithms and data for bias and solutions to mitigate them. 
@@ -160,7 +160,7 @@ Developers should adopt the following practices as they work with the dataset to
   - Metadata: Include metadata that summarizes the training dataset's demographic composition.
   - Visualizations: Use visualization techniques such as bar charts, pie charts, or heatmaps to illustrate the distribution of demographics.
   - Textual Description: Provide a written description of key findings and considerations related to the demographics of the dataset.
-* Adopt Version Control: Implement version control for demographic documentation to track changes over time. Update documentation as the dataset evolves or as new information becomes available.
+* Adopt Version Control: Implement version control for documentation to track changes  in the dataset, demographics of the dataset, any data augmentation procedures such as generating synthetic data to enhance equitable data representation  over time. Update documentation as new information becomes available.
 * Stakeholder Involvement: Seek input from diverse stakeholders, including ethicists, domain experts, and community representatives, in the discussion and documentation process. Communicate findings and potential biases to relevant parties.
 
 ## Explain How the Machine Learning Model Works:
@@ -189,13 +189,19 @@ Document the following attributes to document how the machine learning model wor
   * Fairness and Accountability: Address ethical considerations related to fairness and accountability in model predictions.
   * Feedback Loops: Explain how user feedback is incorporated to improve model performance.
   * User-Friendly Outputs: Detail efforts made to present model outputs in a user-friendly and understandable manner.
-* Continuous Improvement: Explain how the model's performance is monitored and outline plans for iterative improvements and updates based on ongoing evaluations.
+  * Continuous Improvement: Explain how the model's performance is monitored and outline plans for iterative improvements and updates based on ongoing evaluations.
 
 ## Explain AI Product Use Cases:
 An AI product is only as good as its usability and the ease with which users can interact with it[^15]. Developers can use the following guidelines to ease users' adoption.
-1. User Onboarding: Provide a user-friendly setup process, guiding users through the initial steps to use the AI product. Offer tutorials or guides explaining key features and functionalities and provide customer support for end users.
-2. Input Data Preparation: Specify the required format for input data, ensuring users understand how to structure the data. Implement validation mechanisms to catch errors in input data.
-3. Parameter Tuning: Identify and communicate parameters that users can tune based on their needs. Provide default settings but allow customization for diverse use cases.
+1. Overview of the Product: Start by providing an overview of the AI product, including its purpose, main features, and capabilities. This helps users understand what the product does and how it can help them.
+2. User Scenarios: Provide specific examples or scenarios that illustrate how users can use the product in their daily lives or work. This helps users visualize how the product can be applied to real-world situations and solve their problems. These scenarios should include:
+  - a. Context about the user's situation or environment. This helps users understand the scenario and relate it to their own experiences.
+ -  b. A clearly articulated problem statement that explains the challenge that the user is facing. This helps users understand the motivation behind using the AI product and how it can help address their needs.
+ -   c. The goals or objectives that the user wants to achieve. This helps users understand what they are trying to accomplish with the AI product and how it fits into their workflow or activities.
+-   d. An explanation how the user interacts with the AI product to achieve their goals. 
+-   e. The benefits or outcomes that the user experiences as a result of using the AI product. 
+-  f. A description of the end result or resolution of the scenario. This helps users understand the impact of using the AI product and how it contributes to their overall success.
+3. User Onboarding: Provide a user-friendly setup process, guiding users through the initial steps to use the AI product. Offer tutorials or guides explaining key features and functionalities and provide customer support for end users.
 4. Feedback Mechanisms: Establish channels for users to provide feedback on the AI product's performance. Encourage users to report issues or suggest improvements. Stay attuned to evolving user needs and adapt the product accordingly.
 5. Monitoring and Analytics: Provide users with dashboards displaying key performance metrics. Enable users to monitor the AI product's performance over time.
 6. Adaptability to Data Changes: Implement mechanisms to detect and alert users to changes in the input data distribution. Provide guidance on adapting the model to new data.
