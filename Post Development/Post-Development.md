@@ -264,8 +264,8 @@ Comparing models with prior versions, implementing versioning, enabling rollback
 Output adjustment and interpretation in machine learning refer to techniques used to modify or interpret model predictions to make them more equity-focused, less biased, meaningful, actionable, and understandable. This section covers the potential impact assessment of the output before human interpretation and contextualization of results using an equity-driven framework.
 
 ### Potential Impact Assessment of Output
-This testing phase allows developers to evaluate the model's performance in real-world scenarios and identify any biases, disparities, or unintended consequences that may arise. Three testing methods can be used [^18]:
-[18^]:  How to Test Machine Learning Models. (2022, December 7). Deepchecks. Retrieved February 19, 2024, from https://deepchecks.com/how-to-test-machine-learning-models/
+This testing phase allows developers to evaluate the model's performance in real-world scenarios and identify any biases, disparities, or unintended consequences that may arise. Three testing methods can be used [^19]:
+[19^]:  How to Test Machine Learning Models. (2022, December 7). Deepchecks. Retrieved February 19, 2024, from https://deepchecks.com/how-to-test-machine-learning-models/
 
 * The invariance test defines input changes that are expected to leave model outputs unaffected. A common method for testing invariance is related to data augmentation. It involves pairing up modified and unmodified input examples and seeing how much this affects the model output.
 * A directional expectation test is run to check how a change in the input distribution changes the expected output. An example is testing assumptions about the number of bathrooms or property size when predicting house prices. A higher number of bathrooms should mean a higher price prediction. Seeing a different result might reveal wrong assumptions about the relationship between our input and output or the distribution of our dataset.
@@ -275,7 +275,7 @@ This testing phase allows developers to evaluate the model's performance in real
   * test for failure modes identified during manual error analysis.
 
 ### Monitor Results and Contextualize Results
-Continuous monitoring allows organizations to track the model's performance over time and detect any changes or deviations from expected outcomes. This contextualization helps ensure that the model's outputs are interpreted and acted upon in a manner that upholds equity [^18]. The following blueprint can be used to guide this stage of the ML development and production process:
+Continuous monitoring allows organizations to track the model's performance over time and detect any changes or deviations from expected outcomes. This contextualization helps ensure that the model's outputs are interpreted and acted upon in a manner that upholds equity [^20]. The following blueprint can be used to guide this stage of the ML development and production process:
 * Define key performance indicators (KPIs) based on project goals and objectives, such as accuracy, precision, recall, F1 score, or business-specific metrics. Identify additional metrics that provide context to model performance, such as fairness metrics (e.g., disparate impact) or interpretability metrics (e.g., feature importance).
 * Set baseline values and acceptable ranges or thresholds for KPIs based on business requirements, regulatory constraints, or industry standards; then use them to compare against model performance.
 * Implement automated processes to monitor model performance in real-time or at regular intervals. Set up alerts or notifications for deviations from expected performance or when thresholds are breached.
@@ -314,8 +314,8 @@ Another practical technical way to mitigate bias is to use equalized odds post-p
 [^21]:  Paka, A. (2022, August 5). FairCanary: Rapid Continuous Explainable Fairness. Fiddler AI. Retrieved February 19, 2024, from https://www.fiddler.ai/blog/faircanary-rapid-continuous-explainable-fairness
 [^20]:  Buhl, N. (2023, August 8). Mitigating Model Bias in Machine Learning. Encord. Retrieved February 19, 2024, from https://encord.com/blog/reducing-bias-machine-learning/
 [^19]:  Tutorial #1: bias and fairness in AI. (2019, August 19). Borealis AI. Retrieved February 21, 2024, from https://www.borealisai.com/research-blogs/tutorial1-bias-and-fairness-ai/
-[^18]:  Cohen, O. (n.d.). A Comprehensive Guide on How to Monitor Your Models in Production. Neptune.ai. Retrieved February 19, 2024, from https://neptune.ai/blog/how-to-monitor-your-models-in-production-guide
-[^17]:  How to Test Machine Learning Models. (2022, December 7). Deepchecks. Retrieved February 19, 2024, from https://deepchecks.com/how-to-test-machine-learning-models/
+<!--[^20]:  Cohen, O. (n.d.). A Comprehensive Guide on How to Monitor Your Models in Production. Neptune.ai. Retrieved February 19, 2024, from https://neptune.ai/blog/how-to-monitor-your-models-in-production-guide -->
+<!--[^17]:  How to Test Machine Learning Models. (2022, December 7). Deepchecks. Retrieved February 19, 2024, from https://deepchecks.com/how-to-test-machine-learning-models/ -->
 [^16]:  McKenna, M. (n.d.). Bias in AI: How to Mitigate Bias in AI Systems. Toptal. Retrieved February 29, 2024, from https://www.toptal.com/artificial-intelligence/mitigating-ai-bias
 [^15]:  How to Show the Value of Your AI Project to Stakeholders. (2023, August 16). LinkedIn. Retrieved February 19, 2024, from https://www.linkedin.com/advice/0/how-do-you-show-value-your-ai-stakeholders
 
