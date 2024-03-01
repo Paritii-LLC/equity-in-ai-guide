@@ -22,7 +22,8 @@ One synthetic data generation tool geared toward equity considerations is [Synth
 
 
 ## Context of Collection
-The rationale behind data collection efforts is as important as the data itself. Understanding why data was gathered helps in assessing its suitability for a particular modeling task. Bias in data collection methods can reinforce existing stereotypes and inequalities. Data inequity can occur when:
+The rationale behind data collection efforts is as important as the data itself. Understanding why data was gathered helps in assessing its suitability for a particular modeling task. Bias in data collection methods can reinforce existing stereotypes and inequalities. Data inequity can occur when[^1]:
+[^1]BOOM. (2024, February 19). How EdTech Companies Get Away With Exploiting Data Of Minors. BOOM. https://www.boomlive.in/decode/how-edtech-companies-get-away-with-exploiting-data-of-minors-22896
 * Data is collected without proper consent or transparency, as some applications may claim not to collect personal data while actually exfiltrating it
 * Data collected is not representative of the target population or context, leading to biased models and inaccurate predictions
 * Data collection and analysis may not consider privacy concerns, potentially leading to data breaches and misuse.
