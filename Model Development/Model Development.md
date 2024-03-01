@@ -113,7 +113,7 @@ Bias introduced in the data collection phase can lead to skewed and unfair outco
 ### Mitigation Techniques
 Techniques that are common practices to address potential biases include:
 * Diverse Sampling Strategies: Implementing diverse sampling techniques such as stratified sampling, oversampling of minority groups, or collecting data from multiple sources to ensure adequate representation of all demographic groups within the population of interest.
-* Data Augmentation: Generating synthetic data points or augmenting existing data samples to increase the representation of underrepresented groups in the dataset while ensuring that the synthetic data accurately reflects the characteristics and distributions of the original data. Please see  2.4.1.3 Overview of Synthetic Data
+* Data Augmentation: Generating synthetic data points or augmenting existing data samples to increase the representation of underrepresented groups in the dataset while ensuring that the synthetic data accurately reflects the characteristics and distributions of the original data. Please see [Overview of Synthetic Data](https://www.paritii.com/detail/data-availability)
 * Human-in-the-Loop Approaches: Involving human annotators or domain experts in data labeling to identify and correct biases, clarify ambiguous labels, and ensure the cultural and contextual relevance of the collected data.
 
 ## Data Ingestion
