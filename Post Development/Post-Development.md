@@ -249,7 +249,8 @@ Comparing models with prior versions, implementing versioning, enabling rollback
 * Incremental Training:
   * Data Accumulation: Accumulate new data continuously or periodically to update models with the latest information. Retraining Strategies: Develop strategies for incremental training, such as online learning or mini-batch updates, to incorporate new data while minimizing computational resources.
   * Transfer Learning: Leverage transfer learning techniques to efficiently adapt pre-trained models to new data domains or tasks.
-* A/B Testing and Experimentation: Conduct A/B tests to compare the performance of new model versions against baseline or existing models. Use experimentation frameworks to systematically evaluate changes and iterate on model improvements.
+* A/B Testing and Experimentation: Conduct A/B tests to compare the performance of new model versions against baseline or existing models[^18]. Use experimentation frameworks to systematically evaluate changes and iterate on model improvements.
+[^18]: Patel, H. (n.d.). How to A/B Test ML Models? Censius. Retrieved March 1, 2024, from https://censius.ai/blogs/how-to-conduct-a-b-testing-in-machine-learning
 * Automated Pipelines: Set up Continuous Integration and Deployment (CI/CD) pipelines to automate model training, testing, and deployment processes. Ensure that each code commit triggers automated tests and validation checks before deployment.
 * Monitoring and Alerting:
   * Performance Monitoring: Continuously monitor model performance in production, including latency, throughput, and accuracy.
