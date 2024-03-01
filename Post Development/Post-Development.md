@@ -26,15 +26,20 @@ Algorithmic bias occurs when AI/ML model design, data, and sampling result in me
 [^7]:  Aequitas - The Bias Report. (2018). Dssg.io. http://aequitas.dssg.io/
 
 ## Mitigating Biases Between vs. Within Groups
-Mitigating biases between groups and within groups involves addressing systemic biases affecting different demographic or user groups and biases arising within specific subgroups. Here are strategies for mitigating biases at both levels:
+Between-group bias in machine learning refers to biases arising from differential treatment or outcomes experienced by distinct demographic groups within a dataset or model predictions. Machine learning models may exhibit differential performance across demographic groups, leading to disparate outcomes. 
+
+The bias mitigation strategies below address between-group bias in machine learning.
+
 Biases Between Groups:
 * Diverse Representation in Data: Ensure the training data includes diverse samples from all relevant demographic groups to avoid under-representation or marginalization.
-Fair Sampling: Use techniques such as stratified sampling to ensure that each subgroup is adequately represented in the training data, preventing biases related to group size.
+* Fair Sampling: Use techniques such as stratified sampling to ensure that each subgroup is adequately represented in the training data, preventing biases related to group size.
 * Demographic-Aware Features: Develop features sensitive to demographic differences, ensuring that the algorithm considers and appropriately adjusts for variations between groups.
 * Equalized Odds: Implement fairness metrics like equalized odds to ensure that the algorithm's predictions are equally accurate across different demographic groups.
 * Fair Pre-Processing: Apply pre-processing techniques to the data to mitigate biases before training the algorithm, addressing disparities between groups.
-* Bias-Aware Algorithms: Use algorithms specifically designed to detect and mitigate biases. Fairness-aware machine learning models incorporate fairness constraints during training. For example, developers can add a fairness regularization term to the loss function or modify the optimization algorithm to ensure fairness. 
+* Bias-Aware Algorithms: Use algorithms specifically designed to detect and mitigate biases. Fairness-aware machine learning models incorporate fairness constraints during training. For example, developers can add a fairness regularization term to the loss function or modify the optimization algorithm to ensure fairness
 
+ Bias detection and mitigation methods often prioritize "between-group fairness," aiming to address disparities in model predictions among distinct demographic groups, which is crucial for rectifying long-standing inequalities. However, it's equally important to consider complexities within these groups, known as "within-group fairness[^8].
+[^8]: Goethals, S., Calders, T., & Martens, D. (n.d.). Beyond accuracy-fairness: stop evaluating bias mitigation methods solely on between-group metrics. Retrieved February 29, 2024, from https://arxiv.org/pdf/2401.13391.pdf
 Biases Within Groups:
 * Subgroup Analysis: Conduct subgroup analysis to identify biases within specific groups. This analysis involves examining how the algorithm's performance varies across subpopulations.
 * Fine-Grained Fairness Metrics: Define and use fine-grained fairness metrics that assess performance within subgroups, preventing the perpetuation of biases.
