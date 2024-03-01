@@ -265,7 +265,6 @@ Output adjustment and interpretation in machine learning refer to techniques use
 
 ### Potential Impact Assessment of Output
 This testing phase allows developers to evaluate the model's performance in real-world scenarios and identify any biases, disparities, or unintended consequences that may arise. Three testing methods can be used [^19]:
-[19^]:  How to Test Machine Learning Models. (2022, December 7). Deepchecks. Retrieved February 19, 2024, from https://deepchecks.com/how-to-test-machine-learning-models/
 
 * The invariance test defines input changes that are expected to leave model outputs unaffected. A common method for testing invariance is related to data augmentation. It involves pairing up modified and unmodified input examples and seeing how much this affects the model output.
 * A directional expectation test is run to check how a change in the input distribution changes the expected output. An example is testing assumptions about the number of bathrooms or property size when predicting house prices. A higher number of bathrooms should mean a higher price prediction. Seeing a different result might reveal wrong assumptions about the relationship between our input and output or the distribution of our dataset.
@@ -313,9 +312,9 @@ Another practical technical way to mitigate bias is to use equalized odds post-p
 [^22]:  Avijit Ghosh, Aalok Shanbhag, Christo Wilson.FairCanary: Rapid Continuous Explainable Fairness. (2021, June 13). arXiv. Retrieved February 19, 2024, from https://arxiv.org/abs/2106.07057
 [^21]:  Paka, A. (2022, August 5). FairCanary: Rapid Continuous Explainable Fairness. Fiddler AI. Retrieved February 19, 2024, from https://www.fiddler.ai/blog/faircanary-rapid-continuous-explainable-fairness
 [^20]:  Buhl, N. (2023, August 8). Mitigating Model Bias in Machine Learning. Encord. Retrieved February 19, 2024, from https://encord.com/blog/reducing-bias-machine-learning/
-[^19]:  Tutorial #1: bias and fairness in AI. (2019, August 19). Borealis AI. Retrieved February 21, 2024, from https://www.borealisai.com/research-blogs/tutorial1-bias-and-fairness-ai/
+<!--[^19]:  Tutorial #1: bias and fairness in AI. (2019, August 19). Borealis AI. Retrieved February 21, 2024, from https://www.borealisai.com/research-blogs/tutorial1-bias-and-fairness-ai/-->
 <!--[^20]:  Cohen, O. (n.d.). A Comprehensive Guide on How to Monitor Your Models in Production. Neptune.ai. Retrieved February 19, 2024, from https://neptune.ai/blog/how-to-monitor-your-models-in-production-guide -->
-<!--[^17]:  How to Test Machine Learning Models. (2022, December 7). Deepchecks. Retrieved February 19, 2024, from https://deepchecks.com/how-to-test-machine-learning-models/ -->
+[^19]:  How to Test Machine Learning Models. (2022, December 7). Deepchecks. Retrieved February 19, 2024, from https://deepchecks.com/how-to-test-machine-learning-models/ 
 [^16]:  McKenna, M. (n.d.). Bias in AI: How to Mitigate Bias in AI Systems. Toptal. Retrieved February 29, 2024, from https://www.toptal.com/artificial-intelligence/mitigating-ai-bias
 [^15]:  How to Show the Value of Your AI Project to Stakeholders. (2023, August 16). LinkedIn. Retrieved February 19, 2024, from https://www.linkedin.com/advice/0/how-do-you-show-value-your-ai-stakeholders
 
