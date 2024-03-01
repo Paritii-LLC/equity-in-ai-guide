@@ -56,8 +56,9 @@ For complete information, practical guides and resources on data availability pl
 This section covers the key aspects of evaluating, implementing, and maintaining machine learning (ML) systems. Covering the importance of defining expected outcomes and success metrics, selecting appropriate ML domains and metrics considering their evolution, and ensuring system performance while addressing potential biases.
 
 ## Data Equity and Fairness Considerations
-Ensuring data equity and fairness is fundamental in the development of responsible AI systems. [3^]: 
-[3^]: Daniel Domínguez Figaredo, & Stoyanovich, J. (2023). Responsible AI literacy: A stakeholder-first approach. Big Data & Society, 10(2). https://doi.org/10.1177/20539517231219958
+Ensuring data equity and fairness is fundamental in the development of responsible AI systems. [3^] 
+
+[3^]: Daniel Domínguez Figaredo, & Stoyanovich, J. (2023). Responsible AI literacy: A stakeholder-first approach. Big Data & Society, 10(2). https://doi.org/10.1177/20539517231219958. 
 
 Biases or inequities in data can propagate and amplify throughout the AI lifecycle, leading to biased or unfair outcomes. Data equity entails providing equitable access to high-quality data that accurately represent diverse perspectives and experiences, while fairness in data involves mitigating biases and discrimination in data collection, processing, and use. 
 
@@ -67,9 +68,9 @@ Promoting inclusivity (link to 2.2.4) in the context of ensuring data equity in 
 * Cultural Sensitivity: Consider cultural norms, values, and practices when designing data collection methods and analyzing data. This practice includes ensuring that data collection instruments are culturally appropriate and that data analysis techniques do not perpetuate stereotypes or biases.
 * Accessibility: Ensure that data collection methods and AI systems are accessible to individuals with diverse abilities, including those with disabilities. This practice may involve providing alternative formats for data collection, such as audio or visual prompts, and ensuring that AI systems are compatible with assistive technologies.
 * Education and Awareness: Raise awareness among AI developers, data scientists, and other stakeholders about the importance of inclusivity in AI development. Provide training and resources on cultural competence, diversity, equity, and inclusion to promote understanding and sensitivity to diverse perspectives.
-By adopting these strategies, organizations can foster a culture of inclusivity in AI development and promote the creation of more equitable and socially responsible AI systems. [^2]
+By adopting these strategies, organizations can foster a culture of inclusivity in AI development and promote the creation of more equitable and socially responsible AI systems. [^4]
 
-[^2]: Daniel Domínguez Figaredo, & Stoyanovich, J. (2023). Responsible AI literacy: A stakeholder-first approach. Big Data & Society, 10(2).
+[^4]: Daniel Domínguez Figaredo, & Stoyanovich, J. (2023). Responsible AI literacy: A stakeholder-first approach. Big Data & Society, 10(2).
 
 ### Fairness
 To achieve fairness (link to 2.2.4) in AI systems, organizations should consider various dimensions of fairness, including:
