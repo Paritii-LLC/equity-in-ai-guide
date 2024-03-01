@@ -224,6 +224,31 @@ Model retraining is updating a machine learning model with new data or refining 
 
 ### Bias Detection Monitoring in New Data Sets and Features
 Monitoring bias detection in new datasets or features is essential for maintaining fairness and transparency in AI systems. The steps outlined below serve as a useful framework for monitoring bias detection[^16]:
+
+* Identify key metrics to quantify bias in the dataset, such as demographic parity, equal opportunity, or disparate impact.
+* Implement automated processes to continuously monitor bias metrics in new datasets or features.
+* Integrate bias detection into the data pipeline, ensuring that it occurs as part of routine data processing.
+* Analyze the importance of new features in the model's predictions and assess their potential impact on bias.
+* Identify features that may correlate with sensitive attributes and require closer scrutiny.
+* Continuously evaluate the performance of AI models on new datasets, paying attention to fairness metrics across different demographic groups.
+* Compare model performance on historical and new data to detect discrepancies or biases.
+* Incorporate human reviewers or ethicists to assess potential biases in new datasets or features.
+
+Bias detection is an ongoing process, and applying a systematized approach ensures AI systems' fairness and transparency.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * Model Comparison with Prior Versions: Continuously track performance metrics (e.g., accuracy, precision, recall) for each model version. Compare the performance of new models with previous versions to assess improvements or regressions.
 * Versioning:
   * Unique Identifiers: Assign unique identifiers to each model version to facilitate tracking and management.
