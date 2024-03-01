@@ -52,11 +52,15 @@ Some of the risks of synthetic data use include:
 
 For complete information, practical guides and resources on data availability please visit our website (link).
 
-# Design
+# Data Equity and Representation
 This section covers the key aspects of evaluating, implementing, and maintaining machine learning (ML) systems. Covering the importance of defining expected outcomes and success metrics, selecting appropriate ML domains and metrics considering their evolution, and ensuring system performance while addressing potential biases.
 
 ## Data Equity and Fairness Considerations
-Ensuring data equity and fairness is fundamental in the development of responsible AI systems:
+Ensuring data equity and fairness is fundamental in the development of responsible AI systems[2^]:. 
+[2^]:Daniel Domínguez Figaredo, & Stoyanovich, J. (2023). Responsible AI literacy: A stakeholder-first approach. Big Data & Society, 10(2). https://doi.org/10.1177/20539517231219958
+
+Biases or inequities in data can propagate and amplify throughout the AI lifecycle, leading to biased or unfair outcomes. Data equity entails providing equitable access to high-quality data that accurately represent diverse perspectives and experiences, while fairness in data involves mitigating biases and discrimination in data collection, processing, and use. 
+
 ### Inclusivity
 Promoting inclusivity (link to 2.2.4) in the context of ensuring data equity in AI development involves several strategies:
 * Diverse Stakeholder Engagement: Actively involve diverse stakeholders, including individuals from focus communities, in the data collection, analysis, and decision-making processes. This practice ensures that the initiative considers a wide range of perspectives and addresses the needs of diverse populations.
