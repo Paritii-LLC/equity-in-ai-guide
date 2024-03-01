@@ -62,7 +62,7 @@ Ensuring data equity and fairness is fundamental in the development of responsib
 Biases or inequities in data can propagate and amplify throughout the AI lifecycle, leading to biased or unfair outcomes. Data equity entails providing equitable access to high-quality data that accurately represent diverse perspectives and experiences, while fairness in data involves mitigating biases and discrimination in data collection, processing, and use. 
 
 ### Inclusivity
-Promoting inclusivity (link to 2.2.4) in the context of ensuring data equity in AI development involves several strategies:
+Promoting inclusivity (www.paritii.com/detail/data-equity-representation) in the context of ensuring data equity in AI development involves several strategies:
 * Diverse Stakeholder Engagement: Actively involve diverse stakeholders, including individuals from focus communities, in the data collection, analysis, and decision-making processes. This practice ensures that the initiative considers a wide range of perspectives and addresses the needs of diverse populations.
 * Cultural Sensitivity: Consider cultural norms, values, and practices when designing data collection methods and analyzing data. This practice includes ensuring that data collection instruments are culturally appropriate and that data analysis techniques do not perpetuate stereotypes or biases.
 * Accessibility: Ensure that data collection methods and AI systems are accessible to individuals with diverse abilities, including those with disabilities. This practice may involve providing alternative formats for data collection, such as audio or visual prompts, and ensuring that AI systems are compatible with assistive technologies.
@@ -72,7 +72,7 @@ By adopting these strategies, organizations can foster a culture of inclusivity 
 [^4]: Daniel Domínguez Figaredo, & Stoyanovich, J. (2023). Responsible AI literacy: A stakeholder-first approach. Big Data & Society, 10(2).
 
 ### Fairness
-To achieve fairness (link to 2.2.4) in AI systems, organizations should consider various dimensions of fairness, including:
+To achieve fairness (www.paritii.com/detail/data-equity-representation) in AI systems, organizations should consider various dimensions of fairness, including:
 * Outcome Fairness: Ensure that the outcomes produced by AI systems are fair and equitable for all individuals and groups. This practice involves examining whether the decisions made by AI systems result in disparate impacts on different demographic groups and taking steps to mitigate any unfairness.
 * Algorithmic Fairness: Evaluate the fairness of the algorithms used in AI systems and ensure that they do not exhibit bias or discrimination against specific groups. These practices may involve using fairness-aware machine learning techniques, such as fairness constraints or bias mitigation algorithms, to mitigate unfairness in algorithmic decision-making.
 * Data Fairness: Assess the fairness of the data used to train AI systems and ensure that it is representative and free from biases. These practices include identifying and addressing biases in the data collection process and mitigating biases in the training data that may lead to unfair outcomes.
