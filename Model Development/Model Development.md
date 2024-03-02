@@ -2,7 +2,7 @@
 
 Ensuring equity in model development requires prioritizing the identification of dependable data sources for predictive modeling. This section highlights the significance of understanding the context of data collection, ensuring dataset diversity, and addressing biases to achieve equitable model performance. Additionally, the section touches on ethical considerations in data collection and emphasizes the need for comprehensive, fair, and ethically sound methodologies in developing machine learning models.
 
-For complete information, practical guides and resources on model development please visit our website (link).
+For complete information, practical guides and resources on model development please visit our website (https://www.paritii.com/section/model-development).
 
 # Data Availability
 Decisions made throughout data acquisition, collection, and ingestion directly impact a model's ability to learn, predict, and generalize. These processes encompass not only the gathering of data but also its preparation and integration into the modeling workflow. Public repositories like Kaggle and the UCI Machine Learning Repository are excellent sources of datasets that have been used widely in the machine learning community for research and benchmarking purposes. In the event that it isn’t publicly available data one should consider synthetic data generation. (for example, using tools like - Synthea, Generative AI, Mockaroo, etc.).
