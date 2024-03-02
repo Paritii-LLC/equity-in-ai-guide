@@ -1,4 +1,5 @@
 <h1>Model Development</h1>
+For complete information, practical guides and resources on model development please visit our website (https://www.paritii.com/section/model-development).
 
 Ensuring equity in model development requires prioritizing the identification of dependable data sources for predictive modeling. This section highlights the significance of understanding the context of data collection, ensuring dataset diversity, and addressing biases to achieve equitable model performance. Additionally, the section touches on ethical considerations in data collection and emphasizes the need for comprehensive, fair, and ethically sound methodologies in developing machine learning models.
 
@@ -50,7 +51,7 @@ Some of the risks of synthetic data use include:
 * Overfitting: Machine learning models trained on synthetic data may overfit to the synthetic data distribution, resulting in poor performance on real-world data.
 * Ethical Concerns: There may be ethical considerations associated with using synthetic data, particularly if it is used to generate data that could be harmful or discriminatory if applied in practice.
 
-For complete information, practical guides and resources on data availability please visit our website (link).
+For complete information, practical guides and resources on data availability please visit our website (https://www.paritii.com/detail/data-availability).
 
 # Data Equity and Representation
 This section covers the key aspects of evaluating, implementing, and maintaining machine learning (ML) systems. Covering the importance of defining expected outcomes and success metrics, selecting appropriate ML domains and metrics considering their evolution, and ensuring system performance while addressing potential biases.
@@ -222,7 +223,7 @@ Developers should take the following steps to document their algorithm:
 * Input Data Documentation: Provide comprehensive documentation of the data input setup process, including the rationale behind preprocessing steps, feature selection decisions, and any parameter choices. This documentation supports transparency and understanding of the data preparation process.
 * Reproducibility: Ensure that the process for setting up data inputs is reproducible. Include scripts, code snippets, or detailed instructions that allow others to replicate the data input setup for their own analyses or model training, promoting best practices and facilitating collaborative efforts.
 
-For complete information, practical guides and resources on pre-processing considerations, please visit our website(link).
+For complete information, practical guides and resources on pre-processing considerations, please visit our website(https://www.paritii.com/detail/data-equity-and-representation).
 
 # Considerations along the ML pipeline - In-Processing
 ##  Feature Engineering 
@@ -287,4 +288,4 @@ Regularization: Developers can employ regularization techniques to prevent overf
 
 Ensemble Learning: Ensemble learning algorithms such as random forests combine predictions from multiple individual models to produce a more accurate and robust final prediction. Techniques such as bagging (Bootstrap Aggregating), boosting, and stacking are commonly used in ensemble learning. By leveraging the diversity of these models, ensemble learning reduces variance and improves stability, thereby enhancing the model's fairness and effectiveness across different demographic groups. Ensemble techniques adapt to diverse data distributions and user preferences, ensuring equitable treatment and reliable predictions for all individuals.
 
-For complete information, practical guides and resources on model development please visit our website(link). 
+For complete information, practical guides and resources on considerations along the ML-pipeline, please visit our website(https://www.paritii.com/detail/considerations-along-the-ml-pipeline---pre-processing). 
