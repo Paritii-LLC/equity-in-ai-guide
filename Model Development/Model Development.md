@@ -59,7 +59,7 @@ Ensuring data equity and fairness is fundamental in the development of responsib
 Biases or inequities in data can propagate and amplify throughout the AI lifecycle, leading to biased or unfair outcomes. Data equity entails providing equitable access to high-quality data that accurately represent diverse perspectives and experiences, while fairness in data involves mitigating biases and discrimination in data collection, processing, and use. 
 
 ### Inclusivity
-Promoting inclusivity (https://www.paritii.com/detail/why-equitable-ai)) in the context of ensuring data equity in AI development involves several strategies:
+Promoting inclusivity (https://www.paritii.com/detail/why-equitable-ai) in the context of ensuring data equity in AI development involves several strategies:
 * Diverse Stakeholder Engagement: Actively involve diverse stakeholders, including individuals from focus communities, in the data collection, analysis, and decision-making processes. This practice ensures that the initiative considers a wide range of perspectives and addresses the needs of diverse populations.
 * Cultural Sensitivity: Consider cultural norms, values, and practices when designing data collection methods and analyzing data. This practice includes ensuring that data collection instruments are culturally appropriate and that data analysis techniques do not perpetuate stereotypes or biases.
 * Accessibility: Ensure that data collection methods and AI systems are accessible to individuals with diverse abilities, including those with disabilities. This practice may involve providing alternative formats for data collection, such as audio or visual prompts, and ensuring that AI systems are compatible with assistive technologies.
