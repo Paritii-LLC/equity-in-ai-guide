@@ -64,6 +64,7 @@ Promoting inclusivity (https://www.paritii.com/detail/why-equitable-ai) in the c
 * Cultural Sensitivity: Consider cultural norms, values, and practices when designing data collection methods and analyzing data. This practice includes ensuring that data collection instruments are culturally appropriate and that data analysis techniques do not perpetuate stereotypes or biases.
 * Accessibility: Ensure that data collection methods and AI systems are accessible to individuals with diverse abilities, including those with disabilities. This practice may involve providing alternative formats for data collection, such as audio or visual prompts, and ensuring that AI systems are compatible with assistive technologies.
 * Education and Awareness: Raise awareness among AI developers, data scientists, and other stakeholders about the importance of inclusivity in AI development. Provide training and resources on cultural competence, diversity, equity, and inclusion to promote understanding and sensitivity to diverse perspectives.
+
 By adopting these strategies, organizations can foster a culture of inclusivity in AI development and promote the creation of more equitable and socially responsible AI systems. [^4]
 
 [^4]: Daniel Domínguez Figaredo, & Stoyanovich, J. (2023). Responsible AI literacy: A stakeholder-first approach. Big Data & Society, 10(2).
