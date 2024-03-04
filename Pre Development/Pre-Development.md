@@ -1,6 +1,4 @@
 <h1>Pre-Development</h1> 
-For complete information, practical guides and resources on pre-development please visit our website(https://www.paritii.com/detail/pre-development). 
-
 The pre-development phase is foundational for cultivating responsible AI practices. By beginning here and focusing on equity during this phase, you will lay the groundwork for building systems that prioritize fairness and inclusivity, essential values for the responsible advancement of AI technology. Pre-development considerations include:
 
 * Purpose and Ideation(https://www.paritii.com/detail/purpose-ideation): Learn to lead your team in defining goals, problem statements, and use cases that address the root causes of issues you intend to solve with your AI solution while avoiding unintended harm and promoting equitable outcomes.
@@ -20,7 +18,7 @@ The use cases defined during the purpose and ideation phase of development will 
 
 For complete information, practical guides and resources on purpose and ideation, please visit our website(https://www.paritii.com/detail/purpose-ideation).
 ## Stakeholder Engagement
-Once you have identified stakeholders and their motivations and mapped levels of influence and impact, the next step is to create a plan of engagement to ensure diverse perspectives are considered throughout the development process. Stakeholder mapping within AI development involves identifying and analyzing the individuals or groups with influence, vested interests, and direct or indirect impact on creating and implementing an AI system.  For both technical and non-technical individuals, understanding the dynamics and interests of stakeholders is crucial for aligning AI development with ethical standards, legal requirements, and societal expectations. An efficient stakeholder engagement strategy includes mapping out what kind of feedback to request from whom and when to engage with the various stakeholders. 
+Stakeholder mapping within AI development involves identifying and analyzing the individuals or groups with influence, vested interests, and direct or indirect impact on creating and implementing an AI system. Once you have identified stakeholders and their motivations and mapped levels of influence and impact, the next step is to create a plan of engagement to ensure diverse perspectives are considered throughout the development process.  For both technical and non-technical individuals, understanding the dynamics and interests of stakeholders is crucial for aligning AI development with ethical standards, legal requirements, and societal expectations. An efficient stakeholder engagement strategy includes mapping out what kind of feedback to request from whom and when to engage with the various stakeholders. 
 
 For complete information, practical guides and resources on stakeholder engagement, please visit our website(https://www.paritii.com/detail/stakeholder-engagement).
 
