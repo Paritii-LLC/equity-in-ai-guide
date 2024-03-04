@@ -6,3 +6,5 @@ Developers wishing to develop bias-aware ML/AI products can follow the guideline
 Junior developers can start with the [Demo Notebook](https://github.com/Paritii-LLC/equity-in-ai-guide/blob/main/Model%20Development/Demo%20Notebook.ipynb), which introduces a practical Ml/AI use case. 
 
 Experienced developers wishing to dive deeper into the technical aspects of ensuring equity in AI can start with the Pre-Development resource, then move to Model-Development and then Post-Development.
+
+Non-technical team members and leaders who want more context and information on equity considerations can visit our Website (https://www.paritii.com/equity-in-ai-guide).
