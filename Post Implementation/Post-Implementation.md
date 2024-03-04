@@ -10,7 +10,6 @@ Model explainability is specific to the AI system and refers to the ability to p
 * Global Explanations: Provide insights into the overall behavior of the model by analyzing feature importance, model parameters, or feature contributions across the entire dataset.
 * Interpretable Models: Use models that inherently provide transparency, such as decision trees, linear regression, or rule-based systems. These models offer clear rules or features that explain their predictions.
 * Local Explanations: Techniques like LIME (Local Interpretable Model-agnostic Explanations) or SHAP (SHapley Additive exPlanations) generate explanations for individual predictions, making it easier to understand why a specific decision was made.[^1]
- [^1]: Athar, A. (2020, October 4). SHAP (SHapley Additive exPlanations) And LIME (Local Interpretable Model-agnostic Explanations) for model explainability. Medium; Analytics Vidhya. https://medium.com/analytics-vidhya/shap-shapley-additive-explanations-and-lime-local-interpretable-model-agnostic-explanations-8c0aa33e91f 
 * Simplification: Simplify complex models using techniques like feature selection, dimensionality reduction, or model distillation, which create more interpretable versions of the original model while preserving its performance.
 * Post-hoc Explanations: Utilize methods like feature importance scores, partial dependence plots, or sensitivity analysis to explain the model's predictions after it has been trained.
 * Interactive Visualization: Present model explanations through interactive visualizations that allow users to intuitively explore how different features affect predictions and understand the decision-making process.
@@ -97,3 +96,5 @@ The post-launch report should examine biases and discrimination in model predict
 Continuous improvement and iteration are essential principles for enhancing the effectiveness, efficiency, and quality of machine learning projects over time. 
 
 For complete information, practical guides and resources on Post Launch Assessment Guide and Strategic Decisions for Ongoing Use, please visit our website(https://www.paritii.com/detail/post-launch-assessment).
+
+ [^1]: Athar, A. (2020, October 4). SHAP (SHapley Additive exPlanations) And LIME (Local Interpretable Model-agnostic Explanations) for model explainability. Medium; Analytics Vidhya. https://medium.com/analytics-vidhya/shap-shapley-additive-explanations-and-lime-local-interpretable-model-agnostic-explanations-8c0aa33e91f 
