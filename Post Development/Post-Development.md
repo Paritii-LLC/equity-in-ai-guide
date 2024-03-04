@@ -1,7 +1,7 @@
 <h1>Post Development</h1>
 The post-development phase of a machine learning project is where the focus shifts from initial development and deployment to ongoing maintenance, optimization, and evaluation. 
 
-For complete information, practical guides and resources on post development please visit our website ([ink](https://www.paritii.com/section/post-development)).
+For complete information, practical guides and resources on post development please visit our website ([link](https://www.paritii.com/section/post-development)).
 
 # Testing
 Thorough testing supports the development of accurate, reliable, and robust models in real-world scenarios. This section covers strategies, recommendations, and guidelines for evaluating algorithms and outputs for bias, dealing with bias, and conducting impact assessments.
