@@ -94,7 +94,7 @@ The generic representation scheme used by ML algorithms is the tensor, which can
 When the data consists of a combination of numerical, categorical, and text features, a data representation of such composite data involves combining the methods described above. The choice of representation methods depends on the nature of the data and the objectives of the machine learning model being developed. Effective data representation contributes significantly to the model's ability to extract meaningful insights and make accurate predictions [^5]. 
 [^5]: Ibid.
 
-Developers must evaluate representation techniques for their potential to encode biases and amplify disparities, particularly concerning sensitive attributes, and to employ strategies like debiasing algorithms to mitigate these issues.
+Developers must evaluate representation techniques for their potential to encode biases and amplify disparities, particularly concerning sensitive attributes, and to employ strategies like debiasing algorithms to mitigate these issues. For more information on data equity and representation, please visit our website (https://www.paritii.com/detail/data-equity-and-representation)
 
 ## Data Collection
 ### Collection Process
