@@ -45,7 +45,7 @@ For complete information, practical guides and resources on customer feedback an
 ## Post Launch Assessment Guide and Strategic Decisions for Ongoing Use
 Post-launch assessments are essential for maintaining fairness, transparency, and accountability and ensuring that products and services remain inclusive and responsive to the diverse needs and preferences of all users. Organizations can identify and address any potential biases or disparities that may arise after launch by conducting iterative assessments, thereby promoting fairness and equity in the user experience. 
 ### Ongoing Evaluation
-Performance evaluation is a set of measures to assess the effectiveness, efficiency, and reliability of machine learning models.[^2]:
+Performance evaluation is a set of measures to assess the effectiveness, efficiency, and reliability of machine learning models.[^2]
 [^2]: Srivastava, T. (2019, August 6). 12 Important Model Evaluation Metrics for Machine Learning Everyone Should Know (Updated 2023). Analytics Vidhya. https://www.analyticsvidhya.com/blog/2019/08/11-important-model-evaluation-error-metrics/
 The following measures, when implemented, can ensure a robust approach to gauging the effectiveness of machine learning model development and adoption.
 * Model Metrics:
@@ -55,12 +55,12 @@ Real-world performance refers to the effectiveness, reliability, and impact of a
 * Comparative Analysis:
 A comparative analysis involves evaluating the performance, features, or characteristics of different machine learning models, algorithms, techniques, or approaches to identify strengths, weaknesses, and trade-offs.
 
-Anomaly detection and error analysis help identify and understand model shortcomings and evaluate the performance and reliability of machine learning models, particularly in applications where identifying unusual or unexpected patterns is essential.[^3]:
+Anomaly detection and error analysis help identify and understand model shortcomings and evaluate the performance and reliability of machine learning models, particularly in applications where identifying unusual or unexpected patterns is essential.[^3]
 [^3]:Anomaly Detection in Machine Learning. (2021). Anomaly Detection in Machine Learning. https://serokell.io/blog/anomaly-detection-in-machine-learning.
 
 **Error analysis**  in the context of equity in AI refers to the examination and understanding of the types and sources of errors made by machine learning models, particularly concerning their impact on fairness, inclusivity, and ethical considerations. 
-
-Model robustness and stability are essential attributes of machine learning models, ensuring that they perform reliably and consistently across different conditions, datasets, and environments.[^4]:
+### Model Robustness and Stability
+Model robustness and stability are essential attributes of machine learning models, ensuring that they perform reliably and consistently across different conditions, datasets, and environments.[^4]
 [^4]:  Performance: Robustness and Stability | DataRobot AI Platform. (2023, April 4). DataRobot AI Platform. https://www.datarobot.com/trusted-ai-101/performance/robustness-and-stability/
 
 Robustness is the ability of a model to maintain performance and generalization capabilities under perturbations or variations in input data, such as noise, outliers, or adversarial attacks. Stability is the consistency of a model's predictions and behavior across different datasets, subsets of data, or operational conditions, reflecting its reliability and resilience to changes.
