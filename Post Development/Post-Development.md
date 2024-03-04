@@ -92,6 +92,8 @@ Before deploying the model to end users, developers should conduct impact assess
 8. Continuous Learning and Improvement:
 * Feedback Incorporation: Incorporate feedback from the impact assessment into the model development process. Continuously monitor model performance in production and refine strategies based on real-world feedback and data.
 
+For complete information, practical guides and resources on post development please visit our website ([link](www.paritii.com/detail/testing)).
+
 # Model Deployment and Modeling
 Deploying equitable machine learning models involves validating the solution's feasibility and effectiveness and assessing its potential impact on diverse user groups. Developers must consider equity throughout the deployment process, from initial training where equitable data representation must be implemented.  For example, developers should implement mechanisms for continuous monitoring of the model's performance in production environments. This includes monitoring fairness metrics to ensure that the model's behavior remains equitable over time. to final implementation in production environments where rigorous fairness metrics tests have been conducted on model outputs to ensure equitable model predictions.
 
@@ -159,6 +161,7 @@ Document the following attributes of the training dataset[^12]:
 * Data Privacy and Ethics:
   - Privacy Considerations: Ensure compliance with privacy regulations and document any steps taken to protect sensitive demographic information.
   - Ethical Considerations: Document ethical considerations related to using demographic data, particularly when dealing with vulnerable or marginalized groups.
+
 Developers should adopt the following practices as they work with the dataset to ensure clear documentation as it evolves:
 * Documentation Format:
   - Metadata: Include metadata that summarizes the training dataset's demographic composition.
@@ -170,6 +173,7 @@ Developers should adopt the following practices as they work with the dataset to
 ## Explain How the Machine Learning Model Works:
 To convey to end users how the model works, developers can follow the guidelines below[^14]. Transparent communication about the workings of a machine learning model is crucial from an equity perspective to build trust and accountability among end users and stakeholders. Developers can achieve this by clearly explaining the model's decision-making process using non-technical language and visual aids, while being transparent about the data used, including biases and limitations. 
 [^14]:  Mastitsky, S. (2020, November 4). So, your stakeholders want an interpretable Machine Learning model? Towards Data Science. Retrieved February 19, 2024, from https://towardsdatascience.com/so-your-stakeholders-want-an-interpretable-machine-learning-model-6b13928892de
+
 Document the following attributes to document how the machine learning model works:
 * Model Architecture: Briefly describe the type of machine learning model employed (e.g., regression, classification, neural network).
 * Training Process: Explain how the model was trained using historical data to learn patterns and relationships.
