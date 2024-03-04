@@ -222,7 +222,7 @@ Developers should take the following steps to document their algorithm:
 * Input Data Documentation: Provide comprehensive documentation of the data input setup process, including the rationale behind preprocessing steps, feature selection decisions, and any parameter choices. This documentation supports transparency and understanding of the data preparation process.
 * Reproducibility: Ensure that the process for setting up data inputs is reproducible. Include scripts, code snippets, or detailed instructions that allow others to replicate the data input setup for their own analyses or model training, promoting best practices and facilitating collaborative efforts.
 
-For complete information, practical guides and resources on pre-processing considerations, please visit our website(https://www.paritii.com/detail/data-equity-and-representation).
+For complete information, practical guides and resources on pre-processing considerations, please visit our website(https://www.paritii.com/detail/considerations-along-the-ml-pipeline---pre-processing).
 
 # Considerations along the ML pipeline - In-Processing
 ##  Feature Engineering 
