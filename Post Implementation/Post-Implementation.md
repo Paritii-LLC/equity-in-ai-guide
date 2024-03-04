@@ -16,8 +16,10 @@ Model explainability is specific to the AI system and refers to the ability to p
 * Natural Language Generation: Automatically generate human-readable explanations in natural language to describe the reasoning behind model predictions clearly and understandably.
 * Ethical Considerations: Consider ethical implications and fairness metrics when designing and explaining AI models, ensuring that explanations reflect the model's adherence to fairness principles and ethical guidelines.
 * Documentation and Communication: Provide comprehensive documentation and communication channels to explain the model's purpose, limitations, and potential biases to stakeholders, promoting trust and transparency in its use.
-
+### AI Literacy
 AI literacy and end-user education complement each other in promoting the explainability of algorithms by increasing stakeholders' understanding of AI concepts and empowering end-users to engage with AI systems effectively. A higher level of AI literacy among stakeholders, including administrators, faculty, staff, students, and other stakeholders at an institution, is fundamental to effective solution implementation. Part of planning for successfully implementing an AI solution involves defining a strategy for supporting various stakeholder groups in using the systems and outputs to align with its equitable use case. 
+### Education Campaigns
+Part of planning for successfully implementing an AI solution involves defining a strategy for supporting various stakeholder groups in using the systems and outputs to align with its equitable use case.
 
 For complete information, practical guides and resources on AI Literacy, Education, and Awareness Building, please visit our website(https://www.paritii.com/detail/ai-literacy-education-awareness-building).
 ## Customer Feedback and Impact
