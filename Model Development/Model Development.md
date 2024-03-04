@@ -1,6 +1,4 @@
 <h1>Model Development</h1>
-For complete information, practical guides and resources on model development please visit our website (https://www.paritii.com/section/model-development).
-
 Ensuring equity in model development requires prioritizing the identification of dependable data sources for predictive modeling. This section highlights the significance of understanding the context of data collection, ensuring dataset diversity, and addressing biases to achieve equitable model performance. Additionally, the section touches on ethical considerations in data collection and emphasizes the need for comprehensive, fair, and ethically sound methodologies in developing machine learning models.
 
 For complete information, practical guides and resources on model development please visit our website (https://www.paritii.com/section/model-development).
