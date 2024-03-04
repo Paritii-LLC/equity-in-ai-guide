@@ -118,7 +118,7 @@ Techniques that are common practices to address potential biases include[^79]:
 
 ## Data Ingestion
 
-Data ingestion involves transforming raw data into a usable format that can be leveraged for insights and decision-making. Bias in data ingestion can occur at different stages of this process and may stem from various sources. Data ingestion components include the following:
+Data ingestion involves transforming raw data into a usable format that can be leveraged for insights and decision-making.[^80] Bias in data ingestion can occur at different stages of this process and may stem from various sources. Data ingestion components include the following:
 
 ### Data Format
 Data may be structured in various formats, including CSV (Comma Separated Values), JSON (JavaScript Object Notation), and SQL databases, among others. The format is determined by the source of the data and the requirements of the system it's being ingested into. CSV files are widely used for their simplicity and compatibility with most data processing tools. JSON is preferred for nested data structures, while SQL databases are used for structured data that requires relational databases.
@@ -291,3 +291,4 @@ For complete information, practical guides and resources on considerations along
 
 [^14]: Jager, K J., Tripepi, G., Chesnaye, N C., Dekker, F W., Zoccali, C., & Stel, V S. (2020, March 27). Where to look for the most frequent biases?. Nephrology, 25(6), 435-441. https://doi.org/10.1111/nep.13706
 [^79]: Sharma, S., Zhang, Y., Aliaga, J M R., Bouneffouf, D., Muthusamy, V., & Varshney, K R. (2020, February 7). Data Augmentation for Discrimination Prevention and Bias Disambiguation. https://doi.org/10.1145/3375627.3375865
+[^80]: Tae, K H., Roh, Y., Oh, Y H., Kim, H., & Whang, S E. (2019, April 22). Data Cleaning for Accurate, Fair, and Robust Models: A Big Data - AI Integration Approach. arXiv (Cornell University). https://dl.acm.org/doi/10.1145/3329486.3329493
