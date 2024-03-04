@@ -227,6 +227,7 @@ An AI product is only as good as its usability and the ease with which users can
 11. Security and Privacy Considerations: Outline security measures in place to protect user data and maintain privacy. Educate users on best practices for secure usage. 
 12. Version Control and Updates: Implement a versioning system for the AI product to manage updates. Communicate changes, improvements, and potential impacts with each version.
 
+For complete information, practical guides and resources on post development please visit our website ([link](https://www.paritii.com/detail/model-explanation)).
 
 # Model Retraining
 Model retraining is updating a machine learning model with new data or refining its parameters to ensure that it remains accurate and effective over time. Equity-aware practices must drive this process. 
