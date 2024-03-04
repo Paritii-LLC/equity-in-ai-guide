@@ -99,8 +99,8 @@ Developers must evaluate representation techniques for their potential to encode
 For more information on data equity and representation, please visit our website (https://www.paritii.com/detail/data-equity-and-representation)
 
 ## Data Collection
-### Collection Process
-Data is collected through a combination of automated and manual methods to ensure diversity and depth. Automated systems, such as web scraping tools and APIs, efficiently gather large volumes of data from digital platforms and databases. While these systems are a relatively fast, accurate, and cost-effective tool for gathering data, they introduce challenges around data privacy, system complexity, and an overreliance on technology. Simultaneously, surveys and interviews are manual methods to capture qualitative insights, especially from populations less represented online. A dual approach to data collection facilitates a rich dataset that is both broad in scope and deep in insights.
+Data is collected through a combination of automated and manual methods to ensure diversity and depth. Automated systems, such as web scraping tools and APIs, efficiently gather large volumes of data from digital platforms and databases. While these systems are a relatively fast, accurate, and cost-effective tool for gathering data, they introduce challenges around data privacy, system complexity, and an overreliance on technology. Simultaneously, surveys and interviews are manual methods to capture qualitative insights, especially from populations less represented online. A dual approach to data collection facilitates a rich dataset that is both broad in scope and deep in insights.[a^]
+[a^]: Porter, N D., Verdery, A M., & Gaddis, S M. (2020, June 10). Enhancing big data in the social sciences with crowdsourcing: Data augmentation practices, techniques, and opportunities. PLOS ONE, 15(6), e0233154-e0233154. https://doi.org/10.1371/journal.pone.0233154
 
 ### Bias Considerations
 Bias introduced in the data collection phase can lead to skewed and unfair outcomes, affecting the performance and reliability of machine learning models. Various types of bias can be introduced as follows:
