@@ -229,9 +229,9 @@ For complete information, practical guides and resources on pre-processing consi
 This section delves into the methods and considerations for feature engineering, emphasizing the importance of mindful feature selection to prevent the accidental introduction of bias.
 ### Bias Prevention in Features
 Developers should detail the steps taken in feature engineering to ensure that it does not unintentionally encode biases related to sensitive attributes such as gender, race, or age. Measures for detection and mitigation can include:
-### Sensitive Attribute Analysis: 
+#### Sensitive Attribute Analysis: 
 Identify and document any sensitive attributes within the dataset. By understanding which attributes may be associated with potential biases, developers can take appropriate steps to mitigate these biases during feature selection and engineering. While some sensitive attributes may be necessary for specific analyses, documenting their presence allows developers to implement strategies to minimize their impact on the model's predictions.
-### Feature Selection and Engineering: 
+#### Feature Selection and Engineering: 
 During feature engineering, the development team should be cautious about how it is using features related to sensitive attributes. It can employ techniques such as principal component analysis (PCA) to reduce the risk of direct biases by transforming the original features into a new set of orthogonal features. Additionally, it's essential to consider how combinations of features might indirectly encode biases, even if individual features are not directly related to sensitive attributes. Transparent and interpretable models can aid in understanding the influence of specific features on the model's predictions, allowing developers to identify and address potential unintended biases. 
 
 ### Feature Selection Rigor
