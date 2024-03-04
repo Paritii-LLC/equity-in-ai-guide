@@ -116,6 +116,8 @@ Automated alerts, data drift monitoring, periodic audits, and performance metric
 * Periodic Audits: The purpose of periodic audits is to systematically review and evaluate model behavior against ethical and performance standards. Conduct regular audits of model outputs and predictions. Assess fairness, interpretability, and compliance with ethical guidelines. Involve diverse stakeholders, including ethicists, in the audit process.
 * Performance Metric Monitoring: Performance metric monitoring aims to track the model's performance over time and identify degradation or improvements. Continuously monitor key performance metrics based on business objectives. Set up dashboards to visualize and analyze model performance metrics. Establish thresholds for acceptable performance and trigger alerts when thresholds are breached.
 
+For complete information, practical guides and resources on post development please visit our website ([link](www.paritii.com/detail/model-deployment-and-monitoring)).
+
 # Model Explanation
 Model explanation, also known as model interpretability or explainability, refers to understanding and interpreting how a machine learning model makes predictions or classifications; it is a way to gain insights into model behavior, identify important features, and build trust in the model's predictions. By understanding how a model makes predictions or classifications, stakeholders can gain insights into its behavior and identify potential biases or disparities. 
 
@@ -135,6 +137,8 @@ Transparent feature selection processes enable users and data scientists to vali
 * Feature Importance from Tree-Based Models: Tree-based models (e.g., decision trees, random forests, gradient boosting) naturally provide feature importance scores based on the contribution of each feature to the model's splits.
 * LASSO (L1 Regularization) Coefficients: In linear models with L1 regularization, the magnitude of the coefficients represents feature importance. Non-zero coefficients indicate important features.
 * Recursive Feature Elimination (RFE): This method iteratively removes the least important features until the desired number is reached, providing a feature importance ranking.
+
+For complete information, practical guides and resources on post development please visit our website ([link](www.paritii.com/detail/model-explanation)).
 
 ## Document the Training Dataset:
 The documentation of the characteristics of the training dataset can uncover potential biases and help stakeholders, including data scientists, policymakers, and users, gain insights into the representation of different demographic groups in the data
@@ -220,7 +224,7 @@ An AI product is only as good as its usability and the ease with which users can
 12. Version Control and Updates: Implement a versioning system for the AI product to manage updates. Communicate changes, improvements, and potential impacts with each version.
 
 
-## Model Retraining
+# Model Retraining
 Model retraining is updating a machine learning model with new data or refining its parameters to ensure that it remains accurate and effective over time. Equity-aware practices must drive this process. 
 
 ### Bias Detection Monitoring in New Data Sets and Features
@@ -260,9 +264,11 @@ Comparing models with prior versions, implementing versioning, enabling rollback
   * Communication Channels: Establish communication channels for notifying stakeholders about model updates, rollbacks, and performance changes.
 * Stakeholder Involvement: Involve diverse stakeholders, including data scientists, engineers, product managers, and business analysts, in the model management process. Foster collaboration and knowledge sharing to ensure alignment with business goals and user needs.
 
+For complete information, practical guides and resources on post development please visit our website ([link](www.paritii.com/detail/model-retraining)).
+
 [^18]: Patel, H. (n.d.). How to A/B Test ML Models? Censius. Retrieved March 1, 2024, from https://censius.ai/blogs/how-to-conduct-a-b-testing-in-machine-learning
 
-## Output Adjustment and Interpretation
+# Output Adjustment and Interpretation
 Output adjustment and interpretation in machine learning refer to techniques used to modify or interpret model predictions to make them more equity-focused, less biased, meaningful, actionable, and understandable. This section covers the potential impact assessment of the output before human interpretation and contextualization of results using an equity-driven framework.
 
 ### Potential Impact Assessment of Output
@@ -286,7 +292,9 @@ Continuous monitoring allows organizations to track the model's performance over
 * Incorporate user feedback and stakeholder input to assess model performance and relevance. Use feedback loops to improve model outcomes based on user experiences iteratively. Translate feedback into actionable improvements or adjustments to the model architecture, features, or training data.
 * Document monitoring results, contextual analysis, and actions taken in a transparent and accessible manner. Communicate findings to relevant stakeholders through regular reports or dashboards.
 
-## Maintenance
+For complete information, practical guides and resources on post development please visit our website ([link](http://www.paritii.com/detail/output-adjustment-interpretation)).
+
+# Maintenance
 
 ### Avoid Bias Evolving in the Learning Model Over Time
 Bias in machine learning models refers to systematic errors introduced by algorithms or training data that lead to unfair or disproportionate predictions for specific groups or individuals. Such biases can arise due to historical imbalances in the training data, algorithm design, or data collection. To prevent bias from evolving in the ML model over time, use several bias assessment metrics and methodologies, including:
@@ -320,4 +328,4 @@ Another practical technical way to mitigate bias is to use equalized odds post-p
 [^16]:  McKenna, M. (n.d.). Bias in AI: How to Mitigate Bias in AI Systems. Toptal. Retrieved February 29, 2024, from https://www.toptal.com/artificial-intelligence/mitigating-ai-bias
 [^15]:  How to Show the Value of Your AI Project to Stakeholders. (2023, August 16). LinkedIn. Retrieved February 19, 2024, from https://www.linkedin.com/advice/0/how-do-you-show-value-your-ai-stakeholders
 
-For complete information, practical guides and resources on post development please visit our website(link).
+For complete information, practical guides and resources on post development please visit our website ([link](http://www.paritii.com/detail/maintenance)).
