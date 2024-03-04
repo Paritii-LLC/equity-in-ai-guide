@@ -1,6 +1,4 @@
 <h1>Pre-Development</h1> 
-For complete information, practical guides and resources on pre-development please visit our website(https://www.paritii.com/detail/pre-development). 
-
 The pre-development phase is foundational for cultivating responsible AI practices. By beginning here and focusing on equity during this phase, you will lay the groundwork for building systems that prioritize fairness and inclusivity, essential values for the responsible advancement of AI technology. Pre-development considerations include:
 
 * Purpose and Ideation(https://www.paritii.com/detail/purpose-ideation): Learn to lead your team in defining goals, problem statements, and use cases that address the root causes of issues you intend to solve with your AI solution while avoiding unintended harm and promoting equitable outcomes.
