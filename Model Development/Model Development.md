@@ -263,7 +263,7 @@ Focusing on the dynamic and iterative process of analyzing and refining data and
 Bias detection and fairness analysis are essential components of responsible AI development, ensuring that machine learning models make fair and unbiased predictions across different demographic groups or sensitive attributes.  Identify sensitive attributes such as race, gender, age, ethnicity, religion, sexual orientation, or socioeconomic status that should be considered in fairness analysis. Consult domain experts, stakeholders, and affected communities to determine relevant sensitive attributes. Here's how to approach bias detection and fairness analysis effectively.
 
 * Fairness Metrics:
-    * Assess model fairness using fairness metrics such as disparate impact, equal opportunity, and demographic parity.
+    * Assess model fairness using fairness metrics such as disparate impact, equal opportunity, and demographic parity.[^102]
     * Identify any biases or disparities in model predictions across different demographic groups or sensitive attributes.
     * Conduct fairness testing on validation or holdout datasets to evaluate model fairness before deployment.
     * Use statistical or hypothesis testing to assess the significance of observed differences in fairness metrics.
@@ -296,3 +296,4 @@ For complete information, practical guides and resources on considerations along
 [^80]: Tae, K H., Roh, Y., Oh, Y H., Kim, H., & Whang, S E. (2019, April 22). Data Cleaning for Accurate, Fair, and Robust Models: A Big Data - AI Integration Approach. arXiv (Cornell University). https://dl.acm.org/doi/10.1145/3329486.3329493
 [^100]: Ntoutsi, E., Fafalios, P., Gadiraju, U., Iosifidis, V., Nejdl, W., Vidal, M., Ruggieri, S., Turini, F., Papadopoulos, S., Krasanakis, E., Kompatsiaris, I., Kinder-Kurlanda, K., Wagner, C., Karimi, F., Fernández, M., Alani, H., Berendt, B., Kruegel, T., Heinze, C., . . . Staab, S. (2020, February 3). Bias in data‐driven artificial intelligence systems—An introductory survey. WIREs Data Mining and Knowledge Discovery, 10(3). https://doi.org/10.1002/widm.1356
 [^101]: https://www.linkedin.com/pulse/art-science-algorithm-selection-machine-learning-bryce-undy-3uryc
+[^102]: A gentle introduction to ML fairness metrics. (2022, October 26). Superwise.ai. Retrieved March 1, 2024, from https://superwise.ai/blog/gentle-introduction-ml-fairness-metrics/
