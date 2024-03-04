@@ -241,7 +241,7 @@ Features must have a clear, logical connection to the outcome variable. This con
 #### Statistical Significance:
 Features should show a statistically significant relationship with the target variable. To measure and establish the strength and significance of these relationships, developers can use techniques such as correlation coefficients, ANOVA, or chi-squared tests.
 
-#### Sensitivity Analysis in Feature Selection
+### Sensitivity Analysis in Feature Selection
 Sensitivity analysis for feature selection in AI enables developers to optimize model performance, reduce complexity, mitigate overfitting, enhance interpretability, and adapt to changing data dynamics. By systematically varying input features and observing changes in model performance, developers can identify the most influential features, prioritize the most relevant ones, and eliminate less informative ones. To evaluate the sensitivity in feature selection, we can consider the following steps:
 ##### Assessing Feature Impact
 Teams should outline the process for assessing the impact of individual features on model outcomes and discuss how sensitivity analysis can be used to understand the influence of features and guide the refinement of feature selection. Specifically, developers need to assess whether changes in feature importance or model performance disproportionately affect certain demographic groups or perpetuate biases related to sensitive attributes such as race, gender, or socioeconomic status.
