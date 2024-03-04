@@ -111,7 +111,7 @@ Bias introduced in the data collection phase can lead to skewed and unfair outco
 * Observer bias arises when researchers' expectations or knowledge about the purpose of the study influence their observations or interpretations of data. This situation can be particularly problematic in studies involving subjective measurements. Blinding researchers to the study's hypotheses or the participants' group assignments can help minimize observer bias. Blinding helps mitigate this bias by preventing researchers from consciously or unconsciously influencing the study outcomes based on their preconceived notions.
 
 ### Mitigation Techniques
-Techniques that are common practices to address potential biases include:
+Techniques that are common practices to address potential biases include[^79]:
 * Diverse Sampling Strategies: Implementing diverse sampling techniques such as stratified sampling, oversampling of minority groups, or collecting data from multiple sources to ensure adequate representation of all demographic groups within the population of interest.
 * Data Augmentation: Generating synthetic data points or augmenting existing data samples to increase the representation of underrepresented groups in the dataset while ensuring that the synthetic data accurately reflects the characteristics and distributions of the original data. Please see [Overview of Synthetic Data](https://www.paritii.com/detail/data-availability)
 * Human-in-the-Loop Approaches: Involving human annotators or domain experts in data labeling to identify and correct biases, clarify ambiguous labels, and ensure the cultural and contextual relevance of the collected data.
@@ -290,3 +290,4 @@ Ensemble Learning: Ensemble learning algorithms such as random forests combine p
 For complete information, practical guides and resources on considerations along the ML-pipeline, please visit our website(https://www.paritii.com/detail/considerations-along-the-ml-pipeline---pre-processing). 
 
 [^14]: Jager, K J., Tripepi, G., Chesnaye, N C., Dekker, F W., Zoccali, C., & Stel, V S. (2020, March 27). Where to look for the most frequent biases?. Nephrology, 25(6), 435-441. https://doi.org/10.1111/nep.13706
+[^79]: Sharma, S., Zhang, Y., Aliaga, J M R., Bouneffouf, D., Muthusamy, V., & Varshney, K R. (2020, February 7). Data Augmentation for Discrimination Prevention and Bias Disambiguation. https://doi.org/10.1145/3375627.3375865
