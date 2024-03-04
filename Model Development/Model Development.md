@@ -168,7 +168,7 @@ Validating that the established thresholds are appropriate involves conducting s
 ### Monitoring Methodology
 A continuous monitoring process is essential to evaluate the impact of data modification on model performance and fairness over time. This process includes a plan for adjusting thresholds or practices based on feedback, new insights, or changes in the data or the model's application context. 
 
-For complete information, practical guides and resources on design topics like proxying, removing data and those covered in this section, please visit our website(link).
+For complete information, practical guides and resources on design topics like proxying, removing data and those covered in this section, please visit our website(https://www.paritii.com/detail/data-methodology).
 
 # Considerations along the ML pipeline - Pre-Processing
 This section covers the intricacies of data management in machine learning, detailing the stages from data acquisition, including the sources and methods of collection, to the critical process of data labeling and its implications for supervised learning. It emphasizes the importance of evaluating data for representativeness and potential biases, questioning who or what might be underrepresented, and the nature of data entry. Finally, it outlines the steps for data validation, preparation, and database construction, highlighting the role of human judgment in labeling and the need for data cleansing and augmentation.
