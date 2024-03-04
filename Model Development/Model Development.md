@@ -236,9 +236,9 @@ During feature engineering, the development team should be cautious about how it
 
 ### Feature Selection Rigor
 During feature engineering, developers should describe the criteria and methods used for selecting features, emphasizing the importance of relevance, statistical significance, and the avoidance of redundant or irrelevant features. This rigor ensures that the features contribute meaningfully to the model's predictive capabilities. To evaluate the rigor of this selection, we can consider the following measures:
-### Relevance:
+#### Relevance:
 Features must have a clear, logical connection to the outcome variable. This connection is often assessed through exploratory data analysis and domain expertise, ensuring that selected features are expected to influence or correlate with the target outcome.
-### Statistical Significance:
+#### Statistical Significance:
 Features should show a statistically significant relationship with the target variable. To measure and establish the strength and significance of these relationships, developers can use techniques such as correlation coefficients, ANOVA, or chi-squared tests.
 
 #### Sensitivity Analysis in Feature Selection
