@@ -3,7 +3,7 @@ This guide is designed to assist Educational Technology leaders and developers c
 
 Building AI solutions requires a comprehensive toolkit encompassing various tools, libraries, frameworks, and platforms. Paritii AI has created a zoo of predevelopment considerations, development, production, and post-production processes that incorporate bias and equity considerations in the entire AI/ML lifecycle in this GitHub repo.
 Developers wishing to develop bias-aware ML/AI products can follow the guidelines, code, and technical documentation in this repository's project lifecycle. 
-Junior developers can start with the [Demo Notebook](https://github.com/Paritii-LLC/equity-in-ai-guide/blob/main/Model%20Development/Demo%20Notebook.ipynb), which introduces a practical Ml/AI use case. 
+Junior developers can start with the [Demo Notebook](https://github.com/Paritii-LLC/equity-in-ai-guide/blob/main/Model%20Development/Model_Development.ipynb), which introduces a practical Ml/AI use case. 
 
 Experienced developers wishing to dive deeper into the technical aspects of ensuring equity in AI can start with the Pre-Development resource, then move to Model-Development and then Post-Development.
 
