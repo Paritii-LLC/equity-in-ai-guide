@@ -1,7 +1,7 @@
 <h1>Post Development</h1>
 The post-development phase of a machine learning project is where the focus shifts from initial development and deployment to ongoing maintenance, optimization, and evaluation. 
 
-For complete information, practical guides and resources on post development please visit our website(link).
+For complete information, practical guides and resources on post development please visit our website ([ink](https://www.paritii.com/section/post-development)).
 
 # Testing
 Thorough testing supports the development of accurate, reliable, and robust models in real-world scenarios. This section covers strategies, recommendations, and guidelines for evaluating algorithms and outputs for bias, dealing with bias, and conducting impact assessments.
@@ -28,9 +28,8 @@ Algorithmic bias occurs when AI/ML model design, data, and sampling result in me
 ## Mitigating Biases Between vs. Within Groups
 Between-group bias in machine learning refers to biases arising from differential treatment or outcomes experienced by distinct demographic groups within a dataset or model predictions. Machine learning models may exhibit differential performance across demographic groups, leading to disparate outcomes. 
 
-The bias mitigation strategies below address between-group bias in machine learning.
+The bias mitigation strategies below address between-group bias in machine learning. 
 
-Biases Between Groups:
 * Diverse Representation in Data: Ensure the training data includes diverse samples from all relevant demographic groups to avoid under-representation or marginalization.
 * Fair Sampling: Use techniques such as stratified sampling to ensure that each subgroup is adequately represented in the training data, preventing biases related to group size.
 * Demographic-Aware Features: Develop features sensitive to demographic differences, ensuring that the algorithm considers and appropriately adjusts for variations between groups.
@@ -43,6 +42,7 @@ Biases Between Groups:
 
 Within-group bias refers to the tendency of machine learning algorithms to favor or prioritize certain groups of individuals over others based on specific characteristics such as race, gender, or ethnicity. This bias can arise when the data used to train the machine learning algorithm is imbalanced or represents a limited range of individuals. In the context of within-group bias in machine learning, intersectionality highlights how biases are not only based on individual characteristics but also on the intersections of these characteristics. For example, a machine learning algorithm that exhibits within-group bias may favor one racial group over others and disproportionately favor one gender within that racial group, which means that individuals who belong to multiple marginalized groups may face compounded biases that are not accounted for by simply considering each characteristic in isolation[^9].
 [^9]: Buolamwini, J., Gebru, T., Friedler, S., & Wilson, C. (2018). Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification *. Proceedings of Machine Learning Research, 81(81), 1–15. https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf
+
 Using the strategies below can help mitigate within-group bias.
 * Subgroup Analysis: Conduct subgroup analysis to identify biases within specific groups. This analysis involves examining how the algorithm's performance varies across subpopulations.
 * Fine-Grained Fairness Metrics: Define and use fine-grained fairness metrics that assess performance within subgroups, preventing the perpetuation of biases.
@@ -67,8 +67,8 @@ In machine learning, thresholds play a significant role in various post-developm
 * Ethical Thresholds: Thresholds can be set to enforce ethical considerations and regulatory requirements, such as fairness, privacy, or non-discrimination. Models may be designed to comply with predefined thresholds for fairness metrics or privacy constraints.
 
 ## Impact Assessment of Synthetic Data
-Before deploying the model to end users, developers should conduct impact assessments through simulated tests on synthetic data. By simulating various scenarios and testing the model's performance on synthetic data that reflects the diversity of the population it will impact, developers can identify and address inequities or adverse outcomes before deployment[^9]. The following blueprint can be useful in conducting such an assessment.
-[^9]:  Zhang, X., Pérez-Stable, E. J., Bourne, P. E., Peprah, E., Duru, O. K., Breen, N., Berrigan, D., Wood, F., Jackson, J. S., Wong, D. W. S., & Denny, J. (2017). Big Data Science: Opportunities and Challenges to Address Minority Health and Health Disparities in the 21st Century. Ethnicity & disease, 27(2), 95–106. https://doi.org/10.18865/ed.27.2.95
+Before deploying the model to end users, developers should conduct impact assessments through simulated tests on synthetic data. By simulating various scenarios and testing the model's performance on synthetic data that reflects the diversity of the population it will impact, developers can identify and address inequities or adverse outcomes before deployment[^78]. The following blueprint can be useful in conducting such an assessment.
+[^78]:  Zhang, X., Pérez-Stable, E. J., Bourne, P. E., Peprah, E., Duru, O. K., Breen, N., Berrigan, D., Wood, F., Jackson, J. S., Wong, D. W. S., & Denny, J. (2017). Big Data Science: Opportunities and Challenges to Address Minority Health and Health Disparities in the 21st Century. Ethnicity & disease, 27(2), 95–106. https://doi.org/10.18865/ed.27.2.95
 1. Define Objectives and Scenarios:
 * Objective Setting: Clearly define the objectives of the impact assessment, such as evaluating model performance in the context of fairness and impact on underrepresented demographic groups, identifying potential biases, or assessing business impact on underrepresented demographic groups.
 * Scenario Generation: Develop a set of realistic scenarios that represent different use cases, edge cases, and potential challenges the model may encounter in production. 
@@ -189,7 +189,7 @@ Document the following attributes to document how the machine learning model wor
   * Fairness and Accountability: Address ethical considerations related to fairness and accountability in model predictions.
   * Feedback Loops: Explain how user feedback is incorporated to improve model performance.
   * User-Friendly Outputs: Detail efforts made to present model outputs in a user-friendly and understandable manner.
-  * Continuous Improvement: Explain how the model's performance is monitored and outline plans for iterative improvements and updates based on ongoing evaluations.
+* Continuous Improvement: Explain how the model's performance is monitored and outline plans for iterative improvements and updates based on ongoing evaluations.
 
 ## Explain AI Product Use Cases:
 An AI product is only as good as its usability and the ease with which users can interact with it[^15]. Developers can use the following guidelines to ease users' adoption.
@@ -199,6 +199,7 @@ An AI product is only as good as its usability and the ease with which users can
    a. Context about the user's situation or environment. This helps users understand the scenario and relate it to their own experiences.
 
    b. A clearly articulated problem statement that explains the challenge that the user is facing. This helps users understand the motivation behind using the AI product and how it can help address their needs.
+   
    c. The goals or objectives that the user wants to achieve. This helps users understand what they are trying to accomplish with the AI product and how it fits into their workflow or activities.
 
    d. An explanation how the user interacts with the AI product to achieve their goals.
@@ -250,7 +251,6 @@ Comparing models with prior versions, implementing versioning, enabling rollback
   * Data Accumulation: Accumulate new data continuously or periodically to update models with the latest information. Retraining Strategies: Develop strategies for incremental training, such as online learning or mini-batch updates, to incorporate new data while minimizing computational resources.
   * Transfer Learning: Leverage transfer learning techniques to efficiently adapt pre-trained models to new data domains or tasks.
 * A/B Testing and Experimentation: Conduct A/B tests to compare the performance of new model versions against baseline or existing models[^18]. Use experimentation frameworks to systematically evaluate changes and iterate on model improvements.
-[^18]: Patel, H. (n.d.). How to A/B Test ML Models? Censius. Retrieved March 1, 2024, from https://censius.ai/blogs/how-to-conduct-a-b-testing-in-machine-learning
 * Automated Pipelines: Set up Continuous Integration and Deployment (CI/CD) pipelines to automate model training, testing, and deployment processes. Ensure that each code commit triggers automated tests and validation checks before deployment.
 * Monitoring and Alerting:
   * Performance Monitoring: Continuously monitor model performance in production, including latency, throughput, and accuracy.
@@ -259,6 +259,8 @@ Comparing models with prior versions, implementing versioning, enabling rollback
   * Change Logs: Maintain detailed change logs documenting modifications made to each model version.
   * Communication Channels: Establish communication channels for notifying stakeholders about model updates, rollbacks, and performance changes.
 * Stakeholder Involvement: Involve diverse stakeholders, including data scientists, engineers, product managers, and business analysts, in the model management process. Foster collaboration and knowledge sharing to ensure alignment with business goals and user needs.
+
+[^18]: Patel, H. (n.d.). How to A/B Test ML Models? Censius. Retrieved March 1, 2024, from https://censius.ai/blogs/how-to-conduct-a-b-testing-in-machine-learning
 
 ## Output Adjustment and Interpretation
 Output adjustment and interpretation in machine learning refer to techniques used to modify or interpret model predictions to make them more equity-focused, less biased, meaningful, actionable, and understandable. This section covers the potential impact assessment of the output before human interpretation and contextualization of results using an equity-driven framework.
