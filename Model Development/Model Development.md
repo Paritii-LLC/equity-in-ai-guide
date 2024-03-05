@@ -289,7 +289,7 @@ Regularization: Developers can employ regularization techniques to prevent overf
 
 Ensemble Learning: Ensemble learning algorithms such as random forests combine predictions from multiple individual models to produce a more accurate and robust final prediction. Techniques such as bagging (Bootstrap Aggregating), boosting, and stacking are commonly used in ensemble learning. By leveraging the diversity of these models, ensemble learning reduces variance and improves stability, thereby enhancing the model's fairness and effectiveness across different demographic groups. Ensemble techniques adapt to diverse data distributions and user preferences, ensuring equitable treatment and reliable predictions for all individuals.
 
-For complete information, practical guides and resources on considerations along the ML-pipeline, please visit our website(https://www.paritii.com/detail/considerations-along-the-ml-pipeline---pre-processing). 
+For complete information, practical guides and resources on considerations along the ML-pipeline, please visit our website(http://www.paritii.com/detail/considerations-along-the-ml-pipeline---in-processing). 
 
 [^14]: Jager, K J., Tripepi, G., Chesnaye, N C., Dekker, F W., Zoccali, C., & Stel, V S. (2020, March 27). Where to look for the most frequent biases?. Nephrology, 25(6), 435-441. https://doi.org/10.1111/nep.13706
 [^79]: Sharma, S., Zhang, Y., Aliaga, J M R., Bouneffouf, D., Muthusamy, V., & Varshney, K R. (2020, February 7). Data Augmentation for Discrimination Prevention and Bias Disambiguation. https://doi.org/10.1145/3375627.3375865
