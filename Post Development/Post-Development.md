@@ -118,7 +118,7 @@ Automated alerts, data drift monitoring, periodic audits, and performance metric
 * Periodic Audits: The purpose of periodic audits is to systematically review and evaluate model behavior against ethical and performance standards. Conduct regular audits of model outputs and predictions. Assess fairness, interpretability, and compliance with ethical guidelines. Involve diverse stakeholders, including ethicists, in the audit process.
 * Performance Metric Monitoring: Performance metric monitoring aims to track the model's performance over time and identify degradation or improvements. Continuously monitor key performance metrics based on business objectives. Set up dashboards to visualize and analyze model performance metrics. Establish thresholds for acceptable performance and trigger alerts when thresholds are breached.
 
-For complete information, practical guides and resources on post development please visit our website [link](https://www.paritii.com/detail/model-deployment-and-monitoring).
+For complete information, practical guides and resources on model deployment and monitoring please visit our website [link](https://www.paritii.com/detail/model-deployment-and-monitoring).
 
 # Model Explanation
 Model explanation, also known as model interpretability or explainability, refers to understanding and interpreting how a machine learning model makes predictions or classifications; it is a way to gain insights into model behavior, identify important features, and build trust in the model's predictions. By understanding how a model makes predictions or classifications, stakeholders can gain insights into its behavior and identify potential biases or disparities. 
@@ -140,7 +140,7 @@ Transparent feature selection processes enable users and data scientists to vali
 * LASSO (L1 Regularization) Coefficients: In linear models with L1 regularization, the magnitude of the coefficients represents feature importance. Non-zero coefficients indicate important features.
 * Recursive Feature Elimination (RFE): This method iteratively removes the least important features until the desired number is reached, providing a feature importance ranking.
 
-For complete information, practical guides and resources on post development please visit our website ([link](https://www.paritii.com/detail/model-explanation)).
+For complete information, practical guides and resources on model explanation please visit our website ([link](https://www.paritii.com/detail/model-explanation)).
 
 ## Document the Training Dataset:
 The documentation of the characteristics of the training dataset can uncover potential biases and help stakeholders, including data scientists, policymakers, and users, gain insights into the representation of different demographic groups in the data
@@ -227,7 +227,7 @@ An AI product is only as good as its usability and the ease with which users can
 11. Security and Privacy Considerations: Outline security measures in place to protect user data and maintain privacy. Educate users on best practices for secure usage. 
 12. Version Control and Updates: Implement a versioning system for the AI product to manage updates. Communicate changes, improvements, and potential impacts with each version.
 
-For complete information, practical guides and resources on post development please visit our website ([link](https://www.paritii.com/detail/model-explanation)).
+For complete information, practical guides and resources on model explanation please visit our website ([link](https://www.paritii.com/detail/model-explanation)).
 
 # Model Retraining
 Model retraining is updating a machine learning model with new data or refining its parameters to ensure that it remains accurate and effective over time. Equity-aware practices must drive this process. 
@@ -269,7 +269,7 @@ Comparing models with prior versions, implementing versioning, enabling rollback
   * Communication Channels: Establish communication channels for notifying stakeholders about model updates, rollbacks, and performance changes.
 * Stakeholder Involvement: Involve diverse stakeholders, including data scientists, engineers, product managers, and business analysts, in the model management process. Foster collaboration and knowledge sharing to ensure alignment with business goals and user needs.
 
-For complete information, practical guides and resources on post development please visit our website [link](https://www.paritii.com/detail/model-retraining).
+For complete information, practical guides and resources on model retraining please visit our website [link](https://www.paritii.com/detail/model-retraining).
 
 [^18]: Patel, H. (n.d.). How to A/B Test ML Models? Censius. Retrieved March 1, 2024, from https://censius.ai/blogs/how-to-conduct-a-b-testing-in-machine-learning
 
@@ -297,7 +297,7 @@ Continuous monitoring allows organizations to track the model's performance over
 * Incorporate user feedback and stakeholder input to assess model performance and relevance. Use feedback loops to improve model outcomes based on user experiences iteratively. Translate feedback into actionable improvements or adjustments to the model architecture, features, or training data.
 * Document monitoring results, contextual analysis, and actions taken in a transparent and accessible manner. Communicate findings to relevant stakeholders through regular reports or dashboards.
 
-For complete information, practical guides and resources on post development please visit our website ([link](http://www.paritii.com/detail/output-adjustment-interpretation)).
+For complete information, practical guides and resources on output adjustment interpretation please visit our website ([link](http://www.paritii.com/detail/output-adjustment-interpretation)).
 
 # Maintenance
 
@@ -323,7 +323,7 @@ To mitigate biases in the output, AI developers can include a “model facts lab
 
 Another practical technical way to mitigate bias is to use equalized odds post-processing. This technique solves a linear program to find probabilities of changing output labels to optimize equalized odds[^23]. A Python implementation of this technique can be found here (https://aif360.readthedocs.io/en/v0.2.3/modules/postprocessing.html). 
 
-For complete information, practical guides and resources on post development please visit our website ([link](https://www.paritii.com/detail/maintenance)).
+For complete information, practical guides and resources on maintenance please visit our website ([link](https://www.paritii.com/detail/maintenance)).
 
 [^23]:  aif360.algorithms.postprocessing — aif360 0.1.0 documentation. (n.d.). aif360. Retrieved February 19, 2024, from https://aif360.readthedocs.io/en/v0.2.3/modules/postprocessing.html
 [^22]:  Avijit Ghosh, Aalok Shanbhag, Christo Wilson.FairCanary: Rapid Continuous Explainable Fairness. (2021, June 13). arXiv. Retrieved February 19, 2024, from https://arxiv.org/abs/2106.07057
