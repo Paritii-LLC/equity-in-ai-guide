@@ -118,7 +118,7 @@ Automated alerts, data drift monitoring, periodic audits, and performance metric
 * Periodic Audits: The purpose of periodic audits is to systematically review and evaluate model behavior against ethical and performance standards. Conduct regular audits of model outputs and predictions. Assess fairness, interpretability, and compliance with ethical guidelines. Involve diverse stakeholders, including ethicists, in the audit process.
 * Performance Metric Monitoring: Performance metric monitoring aims to track the model's performance over time and identify degradation or improvements. Continuously monitor key performance metrics based on business objectives. Set up dashboards to visualize and analyze model performance metrics. Establish thresholds for acceptable performance and trigger alerts when thresholds are breached.
 
-For complete information, practical guides and resources on post development please visit our website ([link](www.paritii.com/detail/model-deployment-and-monitoring)).
+For complete information, practical guides and resources on post development please visit our website [link](www.paritii.com/detail/model-deployment-and-monitoring).
 
 # Model Explanation
 Model explanation, also known as model interpretability or explainability, refers to understanding and interpreting how a machine learning model makes predictions or classifications; it is a way to gain insights into model behavior, identify important features, and build trust in the model's predictions. By understanding how a model makes predictions or classifications, stakeholders can gain insights into its behavior and identify potential biases or disparities. 
@@ -269,7 +269,7 @@ Comparing models with prior versions, implementing versioning, enabling rollback
   * Communication Channels: Establish communication channels for notifying stakeholders about model updates, rollbacks, and performance changes.
 * Stakeholder Involvement: Involve diverse stakeholders, including data scientists, engineers, product managers, and business analysts, in the model management process. Foster collaboration and knowledge sharing to ensure alignment with business goals and user needs.
 
-For complete information, practical guides and resources on post development please visit our website ([link](www.paritii.com/detail/model-retraining)).
+For complete information, practical guides and resources on post development please visit our website [link](www.paritii.com/detail/model-retraining).
 
 [^18]: Patel, H. (n.d.). How to A/B Test ML Models? Censius. Retrieved March 1, 2024, from https://censius.ai/blogs/how-to-conduct-a-b-testing-in-machine-learning
 
@@ -321,7 +321,9 @@ Quantile Demographic Drift (QDD) is a method to measure and monitor fairness in 
 ### Practical Ways of Mitigating Biases in the Use of the Output
 To mitigate biases in the output, AI developers can include a “model facts label” (a 1-page of relevant and actionable information) for front-line users that indicates how, how not, and when to use the output.
 
-Another practical technical way to mitigate bias is to use equalized odds post-processing. This technique solves a linear program to find probabilities of changing output labels to optimize equalized odds[^23].
+Another practical technical way to mitigate bias is to use equalized odds post-processing. This technique solves a linear program to find probabilities of changing output labels to optimize equalized odds[^23]. A Python implementation of this technique can be found here (https://aif360.readthedocs.io/en/v0.2.3/modules/postprocessing.html). 
+
+For complete information, practical guides and resources on post development please visit our website ([link](www.paritii.com/detail/maintenance)).
 
 [^23]:  aif360.algorithms.postprocessing — aif360 0.1.0 documentation. (n.d.). aif360. Retrieved February 19, 2024, from https://aif360.readthedocs.io/en/v0.2.3/modules/postprocessing.html
 [^22]:  Avijit Ghosh, Aalok Shanbhag, Christo Wilson.FairCanary: Rapid Continuous Explainable Fairness. (2021, June 13). arXiv. Retrieved February 19, 2024, from https://arxiv.org/abs/2106.07057
@@ -332,5 +334,3 @@ Another practical technical way to mitigate bias is to use equalized odds post-p
 [^19]:  How to Test Machine Learning Models. (2022, December 7). Deepchecks. Retrieved February 19, 2024, from https://deepchecks.com/how-to-test-machine-learning-models/ 
 [^16]:  McKenna, M. (n.d.). Bias in AI: How to Mitigate Bias in AI Systems. Toptal. Retrieved February 29, 2024, from https://www.toptal.com/artificial-intelligence/mitigating-ai-bias
 [^15]:  How to Show the Value of Your AI Project to Stakeholders. (2023, August 16). LinkedIn. Retrieved February 19, 2024, from https://www.linkedin.com/advice/0/how-do-you-show-value-your-ai-stakeholders
-
-For complete information, practical guides and resources on post development please visit our website ([link](http://www.paritii.com/detail/maintenance)).
