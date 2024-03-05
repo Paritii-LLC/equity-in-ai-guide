@@ -307,6 +307,8 @@ Bias in machine learning models refers to systematic errors introduced by algori
 * Fairness Metrics: Researchers and practitioners have developed different fairness metrics to measure bias in machine learning models, including Equal Opportunity Difference, Disparate Misclassification Rate, and Treatment Equality [^19]. These metrics help assess how fairly the model treats different groups.
 * Post-hoc Analysis: This involves examining an AI system’s decisions after deployment to identify instances of bias and understand its impact on users and society. [^20]
 
+For more informaiton please head to [Model Development](https://www.paritii.com/section/model-development).
+
 ### Data Retention and Deletion Strategy for Handling Ethical and Privacy Issues
 Data retention is the storing of information for a specific period, and it helps businesses reduce costs, legal risks, and security threats to users and organizations. To successfully implement a data retention policy, incoming and existing data must be properly classified and organized based on risk level and intended use.
 Privacy regulations require two types of data deletion processes: 
