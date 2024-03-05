@@ -92,7 +92,7 @@ Before deploying the model to end users, developers should conduct impact assess
 8. Continuous Learning and Improvement:
 * Feedback Incorporation: Incorporate feedback from the impact assessment into the model development process. Continuously monitor model performance in production and refine strategies based on real-world feedback and data.
 
-For complete information, practical guides and resources on post development please visit our website ([link](https://www.paritii.com/detail/testing)).
+For complete information, practical guides and resources on testing please visit our website ([link](https://www.paritii.com/detail/testing)).
 
 # Model Deployment and Modeling
 Deploying equitable machine learning models involves validating the solution's feasibility and effectiveness and assessing its potential impact on diverse user groups. Developers must consider equity throughout the deployment process, from initial training where equitable data representation must be implemented.  For example, developers should implement mechanisms for continuous monitoring of the model's performance in production environments. This includes monitoring fairness metrics to ensure that the model's behavior remains equitable over time. to final implementation in production environments where rigorous fairness metrics tests have been conducted on model outputs to ensure equitable model predictions.
